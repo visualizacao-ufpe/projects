@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+
+
+  Files adapted for the Taxi DriVis Data Visualization tool
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Taxi DriVis</title>
+    
+    <script src="../assets/scripts/d3.min.js"></script>
+    <script src="../assets/scripts/d3-selection-multi.min.js"></script>
+    <script src="../assets/scripts/d3-scale-chromatic.v1.min.js"></script>
+    <script src="../assets/scripts/leaflet.js"></script>
+    <script type="text/javascript" src="../assets/scripts/Map.SelectArea.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/map.css">
+    <link rel="stylesheet" type="text/css" href="css/fare_tip.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/views.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <style type="text/css">
+    </style>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.cyan-light_blue.min.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Taxi DriVis</span>
+          <div class="mdl-layout-spacer"></div>
+          <form id="tc" action="">
+            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="trip_option-1">
+              <input type="radio" id="trip_option-1" name="trip_category" class="mdl-radio__button" value="pickups" checked>
+              <span class="mdl-radio__label">Pickups</span>
+            </label>
+            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="trip_option-2">
+              <input type="radio" id="trip_option-2" class="mdl-radio__button" name="trip_category" value="dropoffs">
+              <span class="mdl-radio__label">Dropoffs</span>
+            </label>
+            <br>
+          </form>
+          <div style="width: 20px;">
+          </div>
+          <form id="tc" action="">
+            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="cab_option-1">
+              <input type="radio" id="cab_option-1" name="cab_category" class="mdl-radio__button" value="../assets/tlc/green/green.json" checked>
+              <span class="mdl-radio__label">Green</span>
+            </label>
+            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="cab_option-2">
+              <input type="radio" id="cab_option-2" class="mdl-radio__button" name="cab_category" value="../assets/tlc/yellow/yellow.json">
+              <span class="mdl-radio__label">Yellow</span>
+            </label>
+            <br>
+          </form>
+        </div>
+      </header>
+      <main class="mdl-layout__content mdl-color--grey-100">
+        <div class="mdl-grid demo-content">
+          <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+            <div id="map">
+              <div id="leaflet"></div>
+            </div>
+          </div>
+          <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--6-col" id="histogram" style="text-align:center;">
+              <h2>Taxi runs per week day</h2>
+          </div>
+          <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--6-col" id="lineplot" style="text-align:center;">
+              <h2>Taxi runs per day of the month</h2>
+          </div>
+          <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--6-col" id="piechart" style="text-align:center;">
+              <h2>Number of passengers</h2>
+          </div>
+          <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--6-col" id="boxplot" style="text-align:center;">
+              <h2>Average Fare amount (US$)</h2>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="constants.js"></script>
+    <script src="line_plot.js"></script>
+    <script src="histogram.js"></script>
+    <script src="pie.js"></script>
+    <script src="fare_tip.js"></script>
+    <script src="boroughs_plot.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.c {
+    stroke: #aaa;
+    stroke-width: 1.5px;
+    stroke-opacity: .5;
+    fill: none;
+}
+
+.c:hover {
+    stroke: #fff;
+    fill: orange;
+}
+
+.l {
+    stroke: #000;
+}
+
+.box {
+    fill: gray;
+    fill-opacity: .15;
+    stroke: black;
+}
