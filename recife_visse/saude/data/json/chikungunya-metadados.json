@@ -1,0 +1,358 @@
+{
+	"metadados": {
+		"cabecalho": {
+			"titulo": "Casos de Dengue, Zika e Chikungunya",
+			"descricao": "Registro dos casos de Dengue, Zica e Chikungunya com registros nas unidades de saúde do Recife, públicas ou particulares.",
+			"categoria_vcge": "http://vocab.e.gov.br/2011/03/vcge#saude",
+			"fonte_dados": "http://dados.recife.pe.gov.br",
+			"licenca": "Open Database License (ODbL)",
+			"responsavel_dados": "Secretaria de Saúde",
+			"responsavel_disponibilizar": "Emprel",
+			"frequencia_atualizacao": "",
+			"endereco_dataset": "http://dados.recife.pe.gov.br/dataset/casos-de-dengue-zika-e-chikungunya",
+			"status": "ativo",
+			"endereco_dataset_substituto": "",
+			"granularidade": "",
+			"etiquetas": "Chikungunya, Dengue, Zica, epidemiologia, saúde, vírus"
+		},
+		"recursos": [
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/casos-de-dengue-zika-e-chikungunya/resource/c548ad21-6a01-4ed7-bb22-21a13296d601",
+				"titulo": "Casos confirmados de Chikungunya",
+				"formato": "csv",
+				"descricao": "Contém os registros de casos confirmados de Chikungunya com dados sobre a data de notificação, classificação, os critério de confirmação, a evolução do caso e localização."
+			}
+		],
+		"campos": [
+			{
+				"codigo": "num_notificacao",
+				"descricao": "Número da Notificação",
+				"tipo": "Num",
+				"tamanho": 7,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "tipo_notificacao",
+				"descricao": "Identifica o tipo da notificação",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": "1 – Negativa, 2 – Individual,3 – Surto,4 – Agregado"
+			},
+			{
+				"codigo": "co_cid",
+				"descricao": "",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "dt_notificacao",
+				"descricao": "Data de preenchimento da ficha de notificação.",
+				"tipo": "Date",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "ds_semana_notificacao",
+				"descricao": "Semana epidemiológica que o caso foi notificado.",
+				"tipo": "Num",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "notificacao_ano",
+				"descricao": "Ano da notificação",
+				"tipo": "Num",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "co_uf_notificacao",
+				"descricao": "Tabela com Códigos e siglas padronizados pelo IBGE",
+				"tipo": "Char",
+				"tamanho": 25,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "co_municipio_notificacao",
+				"descricao": "Tabela com Código e nome dos municípios do cadastro do IBGE (tabela municipi.dbf)",
+				"tipo": "Num",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "id_regional",
+				"descricao": "Campo com código da regional de saúde da tabela de município do sistema",
+				"tipo": "Num",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "co_unidade_notificacao",
+				"descricao": "Códigos e nomes da tabela do cadastro Nacional de Estabelecimento de Saúde (CNES)",
+				"tipo": "Num",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "dt_diagnostico_sintoma",
+				"descricao": "Data dos primeiros sintomas do caso de agravo agudo.",
+				"tipo": "Date",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "ds_semana_sintoma",
+				"descricao": "Semanas do calendário epidemiológico padronizado.",
+				"tipo": "Num",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "dt_nascimento",
+				"descricao": "Data de nascimento do paciente",
+				"tipo": "Date",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "nu_idade",
+				"descricao": "A composição da variável obedece o seguinte critério: 1. Hora 2. Dia 3. Mês 4. Ano",
+				"tipo": "Num",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "tp_sexo",
+				"descricao": "Sexo do paciente",
+				"tipo": "Char",
+				"tamanho": 1,
+				"valores_permitidos": "M- Masculino, F- Feminino, I- Ignorado"
+			},
+			{
+				"codigo": "tp_gestante",
+				"descricao": "Idade gestacional da paciente.",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": "1. 1º Trimestre, 2. 2º Trimestre, 3. 3º Trimestre, 4. Idade gestacional ignorada, 5. Não, 6. Não se aplica, 9. Ignorado"
+			},
+			{
+				"codigo": "tp_raca_cor",
+				"descricao": "Considera-se cor ou raça declarada pela pessoa.",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": "1- branca, 2- preta, 3- amarela, 4- parda, 5- indígena, 9 Ignorado"
+			},
+			{
+				"codigo": "tp_escolaridade",
+				"descricao": "Série e grau que a pessoa está frequentando ou frequentou considerando a última série concluída com aprovação ou grau de instrução do paciente por ocasião da notificação.",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": "43 Analfabeto, 1. 1ª a 4ª série incompleta do EF, 2. 4ª série completa do EF (antigo 1° grau), 3. 5ª à 8ª série incompleta do EF (antigo ginásio ou 1°grau), 4. Ensino fundamental completo (antigo ginásio ou 1° grau), 5. Ensino médio incompleto(antigo colegial ou 2° grau), 6. Ensino médio completo (antigo colegial ou 2° grau), 7. Educação superior incompleta, 8. Educação superior completa, 9. Ignorado, 10. Não se aplica"
+			},
+			{
+				"codigo": "co_uf_residencia",
+				"descricao": "Tabela com Códigos e siglas padronizados pelo IBGE (tabela municipi.dbf)",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "co_municipio_residencia",
+				"descricao": "Tabela com Códigos e nomes padronizados pelo IBGE",
+				"tipo": "Num",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "co_distrito_residencia",
+				"descricao": "Códigos e nomes padronizados segundo Tabela disponibilizada pelo sistema para cadastramento pelo gestor municipal do Sinan",
+				"tipo": "Num",
+				"tamanho": 3,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "co_bairro_residencia",
+				"descricao": "Código do bairro de residência do paciente por ocasião da notificação.",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "no_bairro_residencia",
+				"descricao": "Nome do Bairro ou outra localidade referente ao município ou Distrito selecionado.",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "co_logradouro_residencia",
+				"descricao": "Tipo e nome do logradouro digitado na entrada de dados ou, se disponível selecionado em tabela de logradouros do município (código e descrição)",
+				"tipo": "Num",
+				"tamanho": 8,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "nome_logradouro_residencia",
+				"descricao": "título e nome do logradouro",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "nu_residencia",
+				"descricao": "Nº. do logradouro",
+				"tipo": "Num",
+				"tamanho": 6,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "nu_residencia",
+				"descricao": "Complemento do logradouro",
+				"tipo": "Char",
+				"tamanho": 30,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "co_geo_campo_1",
+				"descricao": "Campo para Geo-Referenciamento",
+				"tipo": "Num",
+				"tamanho": 8,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "co_geo_campo_2",
+				"descricao": "Campo para Geo-Referenciamento",
+				"tipo": "Num",
+				"tamanho": 8,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "ds_referencia_residencia",
+				"descricao": "Ponto de referência para facilitar a localização da residência do paciente",
+				"tipo": "Char",
+				"tamanho": 70,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "nu_cep_residencia",
+				"descricao": "CEP de residência do paciente",
+				"tipo": "Num",
+				"tamanho": 8,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "tp_zona_residencia",
+				"descricao": "Zona de residência do paciente por ocasião da notificação",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": "1. urbana, 2. rural, 3. periurbana, 9. ignorado"
+			},
+			{
+				"codigo": "co_pais_residencia",
+				"descricao": "Tabela com código e descrição de paises.",
+				"tipo": "Char",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "tp_duplicidade",
+				"descricao": "Identifica duplicidade",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": "0 ou branco – Não identificado, 1 – Não é duplicidade (não listar), 2 – Duplicidade (não contar – categoria existente apenas no Sinan NET)"
+			},
+			{
+				"codigo": "dt_digitacao",
+				"descricao": "Data de Digitação da primeira inclusão da notificação no sistema.",
+				"tipo": "date",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "dt_transf_us",
+				"descricao": "Data de Transferência do registro da Unidade de Saúde para do nível superior do sistema.",
+				"tipo": "date",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "dt_transf_dm",
+				"descricao": "Data de Transferência do registro do Distrito Municipal para do nível superior do sistema.",
+				"tipo": "date",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "dt_transf_sm",
+				"descricao": "Data de Transferência do registro da secretaria municipal para do nível superior do sistema.",
+				"tipo": "date",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "dt_transf_rm",
+				"descricao": "Data de Transferência do registro da Regional Municipal para do nível superior do sistema.",
+				"tipo": "date",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "dt_transf_rs",
+				"descricao": "Data de Transferência do registro da Regional de Saúde para do nível superior do sistema.",
+				"tipo": "date",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "dt_transf_se",
+				"descricao": "Data de Transferência do registro da Secretaria Estadual para do nível superior do sistema.",
+				"tipo": "date",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "nu_lote_vertical",
+				"descricao": "Identifica o Lote da transferência da notificação um nível do sistema para outro (transferência vertical)",
+				"tipo": "Char",
+				"tamanho": 7,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "nu_lote_horizontal",
+				"descricao": "Identifica do Lote da transferência de registros dentro de um mesmo nível do sistema (transferência Horizontal)",
+				"tipo": "Char",
+				"tamanho": 7,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "tp_fluxo_retorno",
+				"descricao": "Identifica se o registro está habilitado para o local de residência ou foi enviado pelo fluxo de retorno.",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": "0 - Não, 1 - habilitado para envio, 2 - Enviado, 3 - distrito, 4 - enviado para distrito, 5 - excluído para fluxo, Obs.: categorias 2, 3, 4 e 5 preenchidas apenas pelo Sinan Net."
+			},
+			{
+				"codigo": "st_fluxo_retorno_recebido",
+				"descricao": "Identifica se o registro foi recebido pelo fluxo de retorno",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": "1 – Sim, 2 - Não"
+			},
+			{
+				"codigo": "ds_identificador_registro",
+				"descricao": "Corresponde ao código de instalação do sistema: código do município",
+				"tipo": "Num",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "st_importado",
+				"descricao": "Identifica se o registro é oriundo da rotina de migração da base Windows.",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": "1-migrado do Sinan Windows, nada - se não for"
+			}
+		]
+	}
+}

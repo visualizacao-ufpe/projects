@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <link rel="stylesheet" href="text.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+  	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+  	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="../heatmap/bairros.js"></script>
+    <link rel="stylesheet" href="text.css">
+    <script src="time_histogram.js"></script>
+    <script src="../helpers/helpers.js"></script>
+    <script src="../heatmap/heatmap.js"></script>
+    <script src="../libraries/moment/moment.js"></script>
+    <script src="radio_button.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<style>
+    .beside {
+        display: inline-block;
+    }
+    .bar {
+        fill: steelblue;
+    }
+</style>
+
+<body>
+
+    <div id="header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="../../index.html">Recife Visse</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="time_histogram.html">Casos</a></li>
+                        <li><a href="../class_histogram/class_histogram.html">Classes</a></li>
+                        <li><a href="../radar_chart/radar_chart.html">Sintomas</a></li>
+                </div>
+            </div>
+
+    </div>
+
+    <input type="radio" name="time_group" value="Monthly" onclick="update('#time_histogram', '#inital_date', '#final_date');"> Monthly<br>
+    <input type="radio" name="time_group" value="Yearly" checked="checked" onclick="update('#time_histogram', '#inital_date', '#final_date');"> Yearly
+    <p>Initial Date: <input type="text" id="inital_date" onChange="update_filter_by_date('#time_histogram', '#heatmap_wrapper', '#map','#inital_date', '#final_date');"></p>
+    <p>Final Date: <input type="text" id="final_date" onChange="update_filter_by_date('#time_histogram', '#heatmap_wrapper', '#map', '#inital_date', '#final_date');"></p>
+    <select id="data_select">
+        <option>Chikungunya</option>
+        <option>Dengue</option>
+        <option>Zika</option>
+    </select>
+    <br><br><br><br>
+
+
+    <div class="beside" id="heatmap_wrapper">
+      <div id="map"> </div>
+    </div>
+
+    <div id="histo_wrapper" class="beside">
+      <div id="time_histogram"></div>
+    </div>
+
+</body>
+
+<script>
+    $('#data_select').change(function() {
+        var data_option = $('#data_select option:selected').text();
+        console.log(data_option);
+        data_update(data_option, '#heatmap_wrapper', '#map', '#time_histogram', '#inital_date', '#final_date');
+    });
+    document.getElementById("inital_date").defaultValue = "07/01/2015";
+    document.getElementById("final_date").defaultValue = "12/01/2020";
+    var data_option = $('#data_select option:selected').text();
+    data_update(data_option, '#heatmap_wrapper', '#map', '#time_histogram', '#inital_date', '#final_date');
+    // init_map('#map', $('#inital_date').val(), $('#final_date').val());
+    // init_time_histogram('#time_histogram', $('#inital_date').val(), $('#final_date').val());
+</script>

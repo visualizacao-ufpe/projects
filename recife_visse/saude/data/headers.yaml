@@ -1,0 +1,3 @@
+input_file: [casos-dengue2015.csv,casos-dengue2016.csv]
+output_file: dengue.json
+headers: [febre,mialgia,cefaleia,vomito,nausea,tp_sexo,dt_notificacao,tp_escolaridade,tp_raca_cor,tp_gestante,dt_nascimento,no_bairro_residencia]

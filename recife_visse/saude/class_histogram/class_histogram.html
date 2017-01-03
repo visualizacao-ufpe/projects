@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="class_histogram.js"></script>
+    <script src="../helpers/helpers.js"></script>
+    <script src="../libraries/moment/moment.js"></script>
+    <style>
+        .bar {
+            fill: steelblue;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="../../index.html">Recife Visse</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="../time_histogram/time_histogram.html">Casos</a></li>
+                        <li><a href="class_histogram.html">Classes</a></li>
+                        <li><a href="../radar_chart/radar_chart.html">Sintomas</a></li>
+                </div>
+            </div>
+
+    </div>
+
+    <select id="data_select">
+        <option>Chikungunya</option>
+        <option>Dengue</option>
+        <option>Zika</option>
+    </select>
+
+    <select id="class_select">
+        <option>Sexo</option>
+        <option>Idade</option>
+        <option>Escolaridade</option>
+        <option>Gestante</option>
+        <option>Raça</option>
+    </select>
+
+    <div id="class_histogram"></div>
+</body>
+
+<script>
+    $('#class_select').change(function() {
+        var option = $('#class_select option:selected').text();
+        update('#class_histogram', option);
+    });
+    $('#data_select').change(function() {
+        var data_option = $('#data_select option:selected').text();
+        var option = $('#class_select option:selected').text();
+        data_update(data_option, '#class_histogram', option);
+    });
+    var data_option = $('#data_select option:selected').text();
+    var option = $('#class_select option:selected').text();
+    data_update(data_option, '#class_histogram', option);
+</script>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+  <head>
+    <script src="https://d3js.org/d3.v3.js"></script>
+    <script src="radar_chart.js"></script>
+    <script src="radar_chart_options.js"></script>
+    <script src="../helpers/helpers.js"></script>
+    <script src="../helpers/classes_mapping.js"></script>
+    <script src="../libraries/radar-chart/radar-chart.min.js"></script>
+    <link href="../libraries/radar-chart/radar-chart.min.css" type="text/css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <style> .bar { fill: steelblue; } </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+    <div id="header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="../../index.html">Recife Visse</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="../time_histogram/time_histogram.html">Casos</a></li>
+                        <li><a href="../class_histogram/class_histogram.html">Classes</a></li>
+                        <li><a href="radar_chart.html">Sintomas</a></li>
+                </div>
+            </div>
+
+    </div>
+
+    <select id="data_select">
+        <option selected="selected">Dengue</option>
+    </select>
+
+    <select id="radar_select">
+        <option selected="selected">Sexo</option>
+        <option>Escolaridade</option>
+        <option>Gestante</option>
+        <option>Raça</option>
+    </select>
+
+    <select id="filter_radar_select_1"></select>
+    <select id="filter_radar_select_2"></select>
+    <br><br><br><br>
+    <div id="radar_histogram"></div>
+  </body>
+
+  <script>
+  $('#radar_select').change(function() {
+      var option = $('#radar_select option:selected').text();
+      update('#radar_histogram', '#filter_radar_select_1', '#filter_radar_select_2', option);
+      update_select_options('#filter_radar_select_1', option);
+      update_select_options('#filter_radar_select_2', option);
+  });
+
+  $('#data_select').change(function() {
+      var data_option = $('#data_select option:selected').text();
+      var option = $('#radar_select option:selected').text();
+      update_data(data_option, '#radar_histogram', '#filter_radar_select_1', '#filter_radar_select_2', option);
+  });
+
+  $('#filter_radar_select_1').change(function() {
+      var option = $('#radar_select option:selected').text();
+      update('#radar_histogram', '#filter_radar_select_1', '#filter_radar_select_2', option);
+  });
+
+  $('#filter_radar_select_2').change(function() {
+      var option = $('#radar_select option:selected').text();
+      update('#radar_histogram', '#filter_radar_select_1', '#filter_radar_select_2', option);
+  });
+
+  var option = $('#radar_select option:selected').text();
+  var data_option = $('#data_select option:selected').text();
+  update_data(data_option, '#radar_histogram', '#filter_radar_select_1', '#filter_radar_select_2', option);
+  update_select_options('#filter_radar_select_1', option);
+  update_select_options('#filter_radar_select_2', option);
+  </script>

@@ -1,0 +1,477 @@
+[
+  {
+    "Nº Localidade": 132,
+    "Nome Localidade": "AFLITOS",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 779,
+    "Nome Localidade": "AFOGADOS",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 337,
+    "Nome Localidade": "AGUA FRIA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 493,
+    "Nome Localidade": "ALTO DO MANDU",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 540,
+    "Nome Localidade": "ALTO JOSE BONIFACIO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 523,
+    "Nome Localidade": "ALTO JOSE DO PINHO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 949,
+    "Nome Localidade": "ALTO SANTA TEREZINHA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 507,
+    "Nome Localidade": "APIPUCOS",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 850,
+    "Nome Localidade": "AREIAS",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 329,
+    "Nome Localidade": "ARRUDA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 999,
+    "Nome Localidade": "BAIRRO IGNORADO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 876,
+    "Nome Localidade": "BARRO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 370,
+    "Nome Localidade": "BEBERIBE",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 205,
+    "Nome Localidade": "BOA VIAGEM",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 86,
+    "Nome Localidade": "BOA VISTA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 426,
+    "Nome Localidade": "BOMBA DO HEMETERIO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 809,
+    "Nome Localidade": "BONGI",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 256,
+    "Nome Localidade": "BRASILIA TEIMOSA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 612,
+    "Nome Localidade": "BREJO DA GUABIRABA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 574,
+    "Nome Localidade": "BREJO DE BEBERIBE",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 51,
+    "Nome Localidade": "CABANGA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 841,
+    "Nome Localidade": "CACOTE",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 353,
+    "Nome Localidade": "CAJUEIRO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 310,
+    "Nome Localidade": "CAMPINA DO BARRETO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 280,
+    "Nome Localidade": "CAMPO GRANDE",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 434,
+    "Nome Localidade": "CASA AMARELA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 442,
+    "Nome Localidade": "CASA FORTE",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 744,
+    "Nome Localidade": "CAXANGA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 728,
+    "Nome Localidade": "CIDADE UNIVERSITARIA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 60,
+    "Nome Localidade": "COELHOS",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 884,
+    "Nome Localidade": "COHAB",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 922,
+    "Nome Localidade": "COQUEIRAL",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 680,
+    "Nome Localidade": "CORDEIRO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 620,
+    "Nome Localidade": "CORREGO DO JENIPAPO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 752,
+    "Nome Localidade": "CURADO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 140,
+    "Nome Localidade": "DERBY",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 590,
+    "Nome Localidade": "DOIS IRMAOS",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 396,
+    "Nome Localidade": "DOIS UNIDOS",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 175,
+    "Nome Localidade": "ENCRUZILHADA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 710,
+    "Nome Localidade": "ENGENHO DO MEIO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 124,
+    "Nome Localidade": "ESPINHEIRO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 833,
+    "Nome Localidade": "ESTANCIA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 345,
+    "Nome Localidade": "FUNDAO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 167,
+    "Nome Localidade": "GRACAS",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 418,
+    "Nome Localidade": "GUABIRABA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 302,
+    "Nome Localidade": "HIPODROMO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 230,
+    "Nome Localidade": "IBURA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 78,
+    "Nome Localidade": "ILHA DO LEITE",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 760,
+    "Nome Localidade": "ILHA DO RETIRO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 43,
+    "Nome Localidade": "ILHA JOANA BEZERRA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 264,
+    "Nome Localidade": "IMBIRIBEIRA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 213,
+    "Nome Localidade": "IPSEP",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 698,
+    "Nome Localidade": "IPUTINGA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 159,
+    "Nome Localidade": "JAQUEIRA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 868,
+    "Nome Localidade": "JARDIM SAO PAULO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 825,
+    "Nome Localidade": "JIQUIA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 221,
+    "Nome Localidade": "JORDAO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 388,
+    "Nome Localidade": "LINHA DO TIRO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 582,
+    "Nome Localidade": "MACAXEIRA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 647,
+    "Nome Localidade": "MADALENA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 515,
+    "Nome Localidade": "MANGABEIRA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 795,
+    "Nome Localidade": "MANGUEIRA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 485,
+    "Nome Localidade": "MONTEIRO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 531,
+    "Nome Localidade": "MORRO DA CONCEICAO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 787,
+    "Nome Localidade": "MUSTARDINHA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 566,
+    "Nome Localidade": "NOVA DESCOBERTA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 94,
+    "Nome Localidade": "PAISSANDU",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 469,
+    "Nome Localidade": "PARNAMIRIM",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 400,
+    "Nome Localidade": "PASSARINHO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 639,
+    "Nome Localidade": "PAU FERRO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 299,
+    "Nome Localidade": "PEIXINHOS",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 248,
+    "Nome Localidade": "PINA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 477,
+    "Nome Localidade": "POCO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 930,
+    "Nome Localidade": "PONTO DE PARADA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 361,
+    "Nome Localidade": "PORTO DA MADEIRA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 663,
+    "Nome Localidade": "PRADO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 19,
+    "Nome Localidade": "RECIFE",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 183,
+    "Nome Localidade": "ROSARINHO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 817,
+    "Nome Localidade": "SAN MARTIN",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 902,
+    "Nome Localidade": "SANCHO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 450,
+    "Nome Localidade": "SANTANA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 108,
+    "Nome Localidade": "SANTO AMARO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 27,
+    "Nome Localidade": "SANTO ANTONIO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 35,
+    "Nome Localidade": "SAO JOSE",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 604,
+    "Nome Localidade": "SITIO DOS PINTOS",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 116,
+    "Nome Localidade": "SOLEDADE",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 191,
+    "Nome Localidade": "TAMARINEIRA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 892,
+    "Nome Localidade": "TEJIPIO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 655,
+    "Nome Localidade": "TORRE",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 272,
+    "Nome Localidade": "TORREAO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 701,
+    "Nome Localidade": "TORROES",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 914,
+    "Nome Localidade": "TOTO",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 736,
+    "Nome Localidade": "VARZEA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 558,
+    "Nome Localidade": "VASCO DA GAMA",
+    "Nome Município": "RECIFE"
+  },
+  {
+    "Nº Localidade": 671,
+    "Nome Localidade": "ZUMBI",
+    "Nome Município": "RECIFE"
+  }
+]
