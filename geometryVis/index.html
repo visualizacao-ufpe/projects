@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css" src="style.css"></style>
+    <meta charset="utf-8">
+    <title>Geometry Vis</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="entities.js"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <!-- Need because of the Collapse/Accordion -->
+     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+      .button {
+        position: absolute;
+        text-align:center;
+        cursor: pointer;
+        font-size: 13px;
+        display: inline-block;
+      }
+
+      .button1 {top: 55px;
+                left: 33%;}
+
+      .button2 {top: 85px;
+                left: 33%;}
+
+      .tick text {
+        font-size: 12px;
+      }
+
+      .tick line {
+        opacity: 0.3;
+        stroke: black;
+      }
+
+    </style>
+  </head>
+  <body style="display: table; max-width: 100%; margin:30px;" >
+    <button class="button button1" onclick="resetmemory()">Limpar</button>
+    <button class="button button2" onclick="resetzoom()">Ajustar</button>
+
+    <!-- Creating the Tutorial -->
+    <div class="panel panel-primary" style="display: table-cell; float: left; width: 28%; height: 745px; margin-right: 20px; margin-bottom: 0px; overflow: auto;" >
+      <div class="panel-heading">
+        <h3 class="panel-title">Tutorial</h3>
+      </div>
+      <div class="panel-body fixed-panel" >
+
+           <!-- Collapsed Framework Tutorial -->
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                Bem vindo!</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+              <div class="panel-body">Com a nossa ferramenta ficará mais fácil aprender os conceitos mais abstratos que giram em torno de vetores, retas e planos. Abaixo você entenderá mais sobre o funcionamento de nossas funções. <br><br>
+              Usaremos de funções e do console abaixo para criar novos elementos. É importante lembrar que sempre que utilizar o console, para que a função seja executada, deve-se pressionar a tecla 'Enter'! <br><br>
+              Bom estudo!</div>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                Criar novo vetor</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">
+                Para criar um vetor usaremos a função:
+                <li><b>nome_vetor = vector(x,y)</b>, onde:</li>
+                <ul>
+                  <li><b>nome_vetor:</b> Nome do vetor</li>
+                  <li><b>x:</b> Posição em relação ao eixo x</li>
+                  <li><b>y:</b> Posição em relação ao eixo y</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                Criar nova reta</a>
+              </h4>
+            </div>
+            <div id="collapse6" class="panel-collapse collapse">
+              <div class="panel-body">
+                Poderemos nos utilizar de 3 formas para criar uma reta: <br>
+                <li><b>geral = line(A,B,C)</b>, onde:</li>
+                <ul>
+                  <li><b>geral:</b> Nome da reta</li>
+                  <li><b>A:</b> Coeficiente em x</li>
+                  <li><b>B:</b> Coeficiente em y</li>
+                  <li><b>C:</b> Variável independente de x ou y</li>
+                </ul>
+                <br>
+                <li><b>cartesiana = line(m,b)</b>, onde:</li>
+                <ul>
+                  <li><b>cartesiana:</b> Nome da reta</li>
+                  <li><b>m:</b> Coeficiente em x</li>
+                  <li><b>b:</b> Coeficiente linear ou variável independente</li>
+                </ul>
+                <br>
+                <li><b>parametrica = line(p,v)</b>, onde:</li>
+                <ul>
+                  <li><b>parametrica:</b> Nome da reta</li>
+                  <li><b>p:</b> Ponto já existente na memória</li>
+                  <li><b>v:</b> Vetor já existente na memória</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                Criar novo ponto</a>
+              </h4>
+            </div>
+            <div id="collapse7" class="panel-collapse collapse">
+              <div class="panel-body">
+                Para criar um ponto usamos a função:
+                <li><b>nome_ponto = point(x,y)</b>, onde:</li>
+                <ul>
+                  <li><b>nome_ponto:</b> Nome do ponto</li>
+                  <li><b>x:</b> Coordenada em relação ao eixo x</li>
+                  <li><b>y:</b> Coordenada em relação ao eixo y</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                Soma de vetores </a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">
+        				Entre as operações com vetores que estão implementadas temos a soma que retorna o resultado da soma entre dois vetores:
+      					<li><b>variavel_resultado = sum(x,y)</b>, onde:</li>
+      					<ul>
+      						<li><b>variavel_resultado:</b> Nome do vetor resultante</li>
+      						<li><b>x:</b> Vetor que esteja na memória</li>
+      						<li><b>y:</b> Vetor que esteja na memória</li>
+      					</ul>
+      			  </div>
+            </div>
+		      </div>
+      	  <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                  Subtração de vetores </a>
+              </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+              <div class="panel-body">
+        				Entre as operações com vetores que estão implementadas também temos a subtração que retorna o resultado da subtração entre dois vetores:
+      					<li><b>variavel_resultado = diff(x,y)</b>, onde:</li>
+                <ul>
+                  <li><b>variavel_resultado:</b> Nome do vetor resultante</li>
+                  <li><b>x:</b> Vetor que esteja na memória</li>
+                  <li><b>y:</b> Vetor que esteja na memória</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    		  <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                Norma de um vetor </a>
+              </h4>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse">
+              <div class="panel-body">
+        		Entre as operações com vetores que estão implementadas também temos a norma que retorna o módulo de um vetor:
+				<li><b>nome_norma = norm(v1)</b>, onde:</li>
+        		<ul>
+				  <li><b>nome_norma:</b> Nome do vetor resultante</li>
+                  <li><b>v1:</b> Nome do vetor que esteja na memória</li>
+        		</ul>
+			  </div>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                Distância entre pontos</a>
+              </h4>
+            </div>
+            <div id="collapse8" class="panel-collapse collapse">
+              <div class="panel-body">
+                Para verificar uma distância faremos:
+                <li><b>nome_dist = dist(p1,p2)</b>, onde:</li>
+                <ul>
+                  <li><b>nome_dist:</b> Nome da váriavel que armazenará a distância</li>
+                  <li><b>p1:</b> Ponto já existente na memória</li>
+                  <li><b>p2:</b> Ponto já existente na memória</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+                Produto interno</a>
+              </h4>
+            </div>
+            <div id="collapse9" class="panel-collapse collapse">
+              <div class="panel-body">
+                O produto interno será representado pela função:
+                <li><b>resultado = dot(v1,v2)</b>, onde:</li>
+                <ul>
+                  <li><b>resultado:</b> Nome da váriavel que armazenará o resultado do produto interno</li>
+                  <li><b>v1:</b> Vetor já existente na memória</li>
+                  <li><b>v2:</b> Vetor já existente na memória</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+                    <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+                Projeção de vetores</a>
+              </h4>
+            </div>
+            <div id="collapse10" class="panel-collapse collapse">
+              <div class="panel-body">
+                Para encontrar o vetor projeção de um vetor sobre outro, utilizamos a seguinte função:
+                <li><b>nome_proj = (v1,v2)</b>, onde:</li>
+                <ul>
+                  <li><b>nome_proj:</b> Nome do vetor projeção</li>
+                  <li><b>v1:</b> Vetor já existente na memória</li>
+                  <li><b>v2:</b> Vetor já existente na memória</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+                    <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+                Cosseno entre Vetores</a>
+              </h4>
+            </div>
+            <div id="collapse11" class="panel-collapse collapse">
+              <div class="panel-body">
+                Para calcular o cosseno entre dois vetores, utilize as instruções abaixo:
+                <li><b>resultado = cos(v1,v2)</b>, onde:</li>
+                <ul>
+                  <li><b>resultado:</b> Nome da variável que armazenará o cosseno</li>
+                  <li><b>v1:</b> Vetor já existente na memória</li>
+                  <li><b>v2:</b> Vetor já existente na memória</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">
+                Ângulo entre vetores</a>
+              </h4>
+            </div>
+            <div id="collapse12" class="panel-collapse collapse">
+              <div class="panel-body">
+                Para calcular o ângulo entre dois vetores, usamos:
+                <li><b>resultado = angle(v1,v2)</b>, onde:</li>
+                <ul>
+                  <li><b>resultado:</b> Nome da variável que armazenará o ângulo (em radianos)</li>
+                  <li><b>v1:</b> Vetor já existente na memória</li>
+                  <li><b>v2:</b> Vetor já existente na memória</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+		   <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">
+                Ângulo entre retas</a>
+              </h4>
+            </div>
+            <div id="collapse13" class="panel-collapse collapse">
+              <div class="panel-body">
+                Para calcular o ângulo entre duas retas, usaremos:
+                <li><b>resultado = angle(r1,r2)</b>, onde:</li>
+                <ul>
+                  <li><b>resultado:</b> Nome da variável que armazenará o ângulo (em radianos)</li>
+                  <li><b>r1:</b> Reta já existente na memória</li>
+                  <li><b>r2:</b> Reta já existente na memória</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+		   <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">
+                Multiplicação entre vetor e escalar</a>
+              </h4>
+            </div>
+            <div id="collapse14" class="panel-collapse collapse">
+              <div class="panel-body">
+                O resultado da multiplicação entre um vetor e uma escalar pode ser encontrado através de:
+                <li><b>variavel_resultado = mult(v1,x)</b>, onde:</li>
+                <ul>
+                  <li><b>variavel_resultado:</b> Nome do vetor resultante</li>
+                  <li><b>v1:</b> Vetor já existente na memória</li>
+                  <li><b>x:</b> Número inteiro</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+		   <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse15">
+                Divisão entre vetor e escalar</a>
+              </h4>
+            </div>
+            <div id="collapse15" class="panel-collapse collapse">
+              <div class="panel-body">
+                O resultado da divisão entre um vetor e uma escalar pode ser encontrado através de:
+                <li><b>variavel_resultado = div(v1,x)</b>, onde:</li>
+                <ul>
+                  <li><b>variavel_resultado:</b> Nome do vetor resultante</li>
+                  <li><b>v1:</b> Vetor já existente na memória</li>
+                  <li><b>x:</b> Número inteiro</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+		   <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse16">
+                Interseção entre retas</a>
+              </h4>
+            </div>
+            <div id="collapse16" class="panel-collapse collapse">
+              <div class="panel-body">
+                A interseção entre retas é definida pela função abaixo:
+                <li><b>variavel_resultado = inter(r1,r2)</b>, onde:</li>
+                <ul>
+                  <li><b>variavel_resultado:</b> Nome do ponto da interseção entre retas (caso exista)</li>
+                  <li><b>r1:</b> Reta já existente na memória</li>
+                  <li><b>r2:</b> Reta já existente na memória</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+		  <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse17">
+                Posição relativa entre retas</a>
+              </h4>
+            </div>
+            <div id="collapse17" class="panel-collapse collapse">
+              <div class="panel-body">
+                A posição relativa entre retas pode ser encontrada através da seguinte função:
+                <li><b>resultado = relpos(r1,r2)</b>, onde:</li>
+                <ul>
+                  <li><b>resultado:</b> Nome do resultado da posição relativa</li>
+                  <li><b>r1:</b> Reta já existente na memória</li>
+                  <li><b>r2:</b> Reta já existente na memória</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Creating SVG -->
+    <script src="main.js"></script>
+    <script src="parser.js"></script>
+    <script src="utils.js"></script>
+
+    <!-- Creating the Console -->
+    <div class="panel panel-primary" style="float: left; width: 900px; height: 220px; margin-top: 20px; overflow: auto;" >
+      <div class="panel-heading">
+        <h3 class="panel-title">Console</h3>
+      </div>
+      <div class="panel-body fixed-panel" >
+          <input type="text" class="form-control" placeholder="Use aqui as funções" />
+      </div>
+        <table class="table table-hover" id="memory">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Nome</th>
+              <th>Resultado</th>
+              <th>Aquisição</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

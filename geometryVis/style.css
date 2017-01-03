@@ -1,0 +1,17 @@
+.svg {
+  /*clear: both;*/
+  /*float: left;*/
+}
+.axis path {
+  display: none;
+}
+
+.axis line {
+  stroke-opacity: 0.3;
+  shape-rendering: crispEdges;
+}
+
+.fixed-panel {
+  overflow-y: scroll;
+}
+
