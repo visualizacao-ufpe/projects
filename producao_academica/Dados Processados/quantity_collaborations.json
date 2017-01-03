@@ -1,0 +1,2941 @@
+[{
+    "professor2": 1,
+    "professor1": 4,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 2,
+    "professor1": 4,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 3,
+    "professor1": 4,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 5,
+    "professor1": 4,
+    "quantity_collaborations": 6
+}, {
+    "professor2": 6,
+    "professor1": 4,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 7,
+    "professor1": 4,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 8,
+    "professor1": 4,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 9,
+    "professor1": 4,
+    "quantity_collaborations": 5
+}, {
+    "professor2": 258,
+    "professor1": 4,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 262,
+    "professor1": 4,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 263,
+    "professor1": 4,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 264,
+    "professor1": 4,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 284,
+    "professor1": 4,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 2,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 3,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 4,
+    "professor1": 6,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 5,
+    "professor1": 6,
+    "quantity_collaborations": 10
+}, {
+    "professor2": 7,
+    "professor1": 6,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 8,
+    "professor1": 6,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 9,
+    "professor1": 6,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 31,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 34,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 35,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 81,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 82,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 83,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 116,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 255,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 262,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 263,
+    "professor1": 6,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 264,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 284,
+    "professor1": 6,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 560,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 563,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 628,
+    "professor1": 6,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 629,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 638,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 660,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 697,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 703,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 704,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 705,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 706,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 707,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 708,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 709,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 710,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 711,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 712,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 713,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 714,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 715,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 716,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 717,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 718,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 719,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 720,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 721,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 722,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 729,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1339,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1340,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1341,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1342,
+    "professor1": 6,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 10,
+    "professor1": 14,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 11,
+    "professor1": 14,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 12,
+    "professor1": 14,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 13,
+    "professor1": 14,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 15,
+    "professor1": 14,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 17,
+    "professor1": 16,
+    "quantity_collaborations": 10
+}, {
+    "professor2": 18,
+    "professor1": 16,
+    "quantity_collaborations": 9
+}, {
+    "professor2": 21,
+    "professor1": 16,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 108,
+    "professor1": 16,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 202,
+    "professor1": 16,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 203,
+    "professor1": 16,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 684,
+    "professor1": 16,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 786,
+    "professor1": 16,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 839,
+    "professor1": 16,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 840,
+    "professor1": 16,
+    "quantity_collaborations": 7
+}, {
+    "professor2": 848,
+    "professor1": 16,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 849,
+    "professor1": 16,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 850,
+    "professor1": 16,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1218,
+    "professor1": 16,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1219,
+    "professor1": 16,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 20,
+    "professor1": 19,
+    "quantity_collaborations": 5
+}, {
+    "professor2": 21,
+    "professor1": 19,
+    "quantity_collaborations": 5
+}, {
+    "professor2": 19,
+    "professor1": 20,
+    "quantity_collaborations": 5
+}, {
+    "professor2": 21,
+    "professor1": 20,
+    "quantity_collaborations": 5
+}, {
+    "professor2": 84,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 85,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 204,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 252,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 256,
+    "professor1": 20,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 257,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 456,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 484,
+    "professor1": 20,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 624,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 625,
+    "professor1": 20,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 626,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 627,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 750,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 845,
+    "professor1": 20,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 1073,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1154,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1468,
+    "professor1": 20,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 23,
+    "professor1": 22,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 24,
+    "professor1": 22,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 25,
+    "professor1": 22,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 26,
+    "professor1": 22,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 22,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 24,
+    "professor1": 23,
+    "quantity_collaborations": 30
+}, {
+    "professor2": 25,
+    "professor1": 23,
+    "quantity_collaborations": 6
+}, {
+    "professor2": 26,
+    "professor1": 23,
+    "quantity_collaborations": 6
+}, {
+    "professor2": 37,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 250,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 252,
+    "professor1": 23,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 323,
+    "professor1": 23,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 350,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 380,
+    "professor1": 23,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 381,
+    "professor1": 23,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 427,
+    "professor1": 23,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 428,
+    "professor1": 23,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 429,
+    "professor1": 23,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 479,
+    "professor1": 23,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 480,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 481,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 549,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 573,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 614,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 645,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 684,
+    "professor1": 23,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 685,
+    "professor1": 23,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 762,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 807,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 892,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 927,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 928,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 929,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 930,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 931,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 940,
+    "professor1": 23,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 941,
+    "professor1": 23,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 942,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1031,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1131,
+    "professor1": 23,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 1132,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1290,
+    "professor1": 23,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 1302,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1411,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1412,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1486,
+    "professor1": 23,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 28,
+    "professor1": 27,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 29,
+    "professor1": 27,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 149,
+    "professor1": 27,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 810,
+    "professor1": 27,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1019,
+    "professor1": 27,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1020,
+    "professor1": 27,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1021,
+    "professor1": 27,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1405,
+    "professor1": 27,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1406,
+    "professor1": 27,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 27,
+    "professor1": 28,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 29,
+    "professor1": 28,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 47,
+    "professor1": 28,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 48,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 81,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 111,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 112,
+    "professor1": 28,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 149,
+    "professor1": 28,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 237,
+    "professor1": 28,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 326,
+    "professor1": 28,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 327,
+    "professor1": 28,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 482,
+    "professor1": 28,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 567,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 568,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 569,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 570,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 609,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 636,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 637,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 638,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 639,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 679,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 680,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 698,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 699,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 700,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 701,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 828,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 939,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1019,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1020,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1021,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1077,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1078,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1393,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1394,
+    "professor1": 28,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 30,
+    "professor1": 33,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 31,
+    "professor1": 33,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 32,
+    "professor1": 33,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 34,
+    "professor1": 33,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 35,
+    "professor1": 33,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 5,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 6,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 7,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 30,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 31,
+    "professor1": 34,
+    "quantity_collaborations": 5
+}, {
+    "professor2": 32,
+    "professor1": 34,
+    "quantity_collaborations": 11
+}, {
+    "professor2": 33,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 35,
+    "professor1": 34,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 77,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 78,
+    "professor1": 34,
+    "quantity_collaborations": 6
+}, {
+    "professor2": 79,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 80,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 81,
+    "professor1": 34,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 82,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 83,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 112,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 116,
+    "professor1": 34,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 211,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 212,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 213,
+    "professor1": 34,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 236,
+    "professor1": 34,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 237,
+    "professor1": 34,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 255,
+    "professor1": 34,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 298,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 299,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 300,
+    "professor1": 34,
+    "quantity_collaborations": 8
+}, {
+    "professor2": 301,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 483,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 513,
+    "professor1": 34,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 514,
+    "professor1": 34,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 515,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 560,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 571,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 638,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 663,
+    "professor1": 34,
+    "quantity_collaborations": 5
+}, {
+    "professor2": 686,
+    "professor1": 34,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 687,
+    "professor1": 34,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 697,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 703,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 704,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 705,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 706,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 707,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 708,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 709,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 710,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 711,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 712,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 713,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 714,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 715,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 716,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 717,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 718,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 719,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 720,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 721,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 722,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 727,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 833,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 834,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 925,
+    "professor1": 34,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 932,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 933,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 934,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 937,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 990,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 991,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1026,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1067,
+    "professor1": 34,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 1082,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1083,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1233,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1234,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1268,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1269,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1270,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1271,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1272,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1303,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1359,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1461,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1462,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1463,
+    "professor1": 34,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 37,
+    "professor1": 36,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 38,
+    "professor1": 36,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 10,
+    "professor1": 39,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 11,
+    "professor1": 39,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 15,
+    "professor1": 39,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 364,
+    "professor1": 39,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 853,
+    "professor1": 39,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 854,
+    "professor1": 39,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 855,
+    "professor1": 39,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 856,
+    "professor1": 39,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 948,
+    "professor1": 39,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 42,
+    "professor1": 44,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 43,
+    "professor1": 44,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 45,
+    "professor1": 44,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 28,
+    "professor1": 47,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 46,
+    "professor1": 47,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 48,
+    "professor1": 47,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 482,
+    "professor1": 47,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 828,
+    "professor1": 47,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 17,
+    "professor1": 52,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 24,
+    "professor1": 52,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 45,
+    "professor1": 52,
+    "quantity_collaborations": 9
+}, {
+    "professor2": 49,
+    "professor1": 52,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 50,
+    "professor1": 52,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 51,
+    "professor1": 52,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 86,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 166,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 192,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 243,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 244,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 338,
+    "professor1": 52,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 339,
+    "professor1": 52,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 340,
+    "professor1": 52,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 561,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 562,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 658,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 659,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 816,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 822,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 866,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1070,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1161,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1260,
+    "professor1": 52,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 56,
+    "professor1": 59,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 57,
+    "professor1": 59,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 58,
+    "professor1": 59,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 60,
+    "professor1": 59,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 226,
+    "professor1": 59,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 61,
+    "professor1": 62,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 63,
+    "professor1": 62,
+    "quantity_collaborations": 5
+}, {
+    "professor2": 65,
+    "professor1": 64,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 66,
+    "professor1": 64,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 64,
+    "professor1": 65,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 66,
+    "professor1": 65,
+    "quantity_collaborations": 18
+}, {
+    "professor2": 69,
+    "professor1": 65,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 70,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 71,
+    "professor1": 65,
+    "quantity_collaborations": 15
+}, {
+    "professor2": 72,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 269,
+    "professor1": 65,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 270,
+    "professor1": 65,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 271,
+    "professor1": 65,
+    "quantity_collaborations": 7
+}, {
+    "professor2": 272,
+    "professor1": 65,
+    "quantity_collaborations": 8
+}, {
+    "professor2": 318,
+    "professor1": 65,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 425,
+    "professor1": 65,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 426,
+    "professor1": 65,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 442,
+    "professor1": 65,
+    "quantity_collaborations": 11
+}, {
+    "professor2": 443,
+    "professor1": 65,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 444,
+    "professor1": 65,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 445,
+    "professor1": 65,
+    "quantity_collaborations": 9
+}, {
+    "professor2": 446,
+    "professor1": 65,
+    "quantity_collaborations": 6
+}, {
+    "professor2": 447,
+    "professor1": 65,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 448,
+    "professor1": 65,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 575,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 592,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 593,
+    "professor1": 65,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 594,
+    "professor1": 65,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 595,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 596,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 632,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 672,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 673,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 777,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 778,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 789,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 819,
+    "professor1": 65,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 820,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 874,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 875,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 876,
+    "professor1": 65,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 894,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 904,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 920,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 921,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 938,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 982,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 983,
+    "professor1": 65,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 984,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 985,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1022,
+    "professor1": 65,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 1060,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1062,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1063,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1064,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1065,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1066,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1137,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1138,
+    "professor1": 65,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 1147,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1148,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1188,
+    "professor1": 65,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 1189,
+    "professor1": 65,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 1293,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1381,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1382,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1383,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1409,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1415,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1416,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1417,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1418,
+    "professor1": 65,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 68,
+    "professor1": 67,
+    "quantity_collaborations": 7
+}, {
+    "professor2": 184,
+    "professor1": 67,
+    "quantity_collaborations": 7
+}, {
+    "professor2": 185,
+    "professor1": 67,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 726,
+    "professor1": 67,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 756,
+    "professor1": 67,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 862,
+    "professor1": 67,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1182,
+    "professor1": 67,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1183,
+    "professor1": 67,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1184,
+    "professor1": 67,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1185,
+    "professor1": 67,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1186,
+    "professor1": 67,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 65,
+    "professor1": 70,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 66,
+    "professor1": 70,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 69,
+    "professor1": 70,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 71,
+    "professor1": 70,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 72,
+    "professor1": 70,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 73,
+    "professor1": 74,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 75,
+    "professor1": 74,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 20,
+    "professor1": 84,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 85,
+    "professor1": 84,
+    "quantity_collaborations": 9
+}, {
+    "professor2": 196,
+    "professor1": 84,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 197,
+    "professor1": 84,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 297,
+    "professor1": 84,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 405,
+    "professor1": 84,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 456,
+    "professor1": 84,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1404,
+    "professor1": 84,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 45,
+    "professor1": 86,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 52,
+    "professor1": 86,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 90,
+    "professor1": 91,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 92,
+    "professor1": 91,
+    "quantity_collaborations": 10
+}, {
+    "professor2": 108,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 125,
+    "professor1": 91,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 126,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 168,
+    "professor1": 91,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 199,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 201,
+    "professor1": 91,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 245,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 246,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 247,
+    "professor1": 91,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 248,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 249,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 259,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 402,
+    "professor1": 91,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 403,
+    "professor1": 91,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 535,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 604,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 724,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 846,
+    "professor1": 91,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 847,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 867,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1035,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1036,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1037,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1038,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1039,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1190,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1387,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1388,
+    "professor1": 91,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 98,
+    "professor1": 101,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 99,
+    "professor1": 101,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 100,
+    "professor1": 101,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 102,
+    "professor1": 101,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 145,
+    "professor1": 101,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 146,
+    "professor1": 101,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 147,
+    "professor1": 101,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 148,
+    "professor1": 101,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 149,
+    "professor1": 101,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 37,
+    "professor1": 107,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 92,
+    "professor1": 107,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 108,
+    "professor1": 107,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 201,
+    "professor1": 107,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 246,
+    "professor1": 107,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 372,
+    "professor1": 107,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 373,
+    "professor1": 107,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1106,
+    "professor1": 107,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1107,
+    "professor1": 107,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 28,
+    "professor1": 111,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 48,
+    "professor1": 111,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 109,
+    "professor1": 111,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 110,
+    "professor1": 111,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 112,
+    "professor1": 111,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 237,
+    "professor1": 111,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 609,
+    "professor1": 111,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 654,
+    "professor1": 111,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 115,
+    "professor1": 114,
+    "quantity_collaborations": 10
+}, {
+    "professor2": 116,
+    "professor1": 114,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 117,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 204,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 205,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 743,
+    "professor1": 114,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 744,
+    "professor1": 114,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 752,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 885,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 886,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1047,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1048,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1049,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1050,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1051,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1052,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1053,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1054,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1191,
+    "professor1": 114,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 122,
+    "professor1": 121,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 123,
+    "professor1": 121,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 645,
+    "professor1": 121,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 783,
+    "professor1": 121,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 784,
+    "professor1": 121,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 21,
+    "professor1": 132,
+    "quantity_collaborations": 5
+}, {
+    "professor2": 131,
+    "professor1": 132,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 133,
+    "professor1": 132,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 134,
+    "professor1": 132,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 135,
+    "professor1": 132,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 215,
+    "professor1": 132,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 216,
+    "professor1": 132,
+    "quantity_collaborations": 5
+}, {
+    "professor2": 281,
+    "professor1": 132,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 282,
+    "professor1": 132,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 283,
+    "professor1": 132,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 287,
+    "professor1": 132,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 288,
+    "professor1": 132,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 423,
+    "professor1": 132,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 424,
+    "professor1": 132,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 662,
+    "professor1": 132,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 682,
+    "professor1": 132,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 702,
+    "professor1": 132,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1075,
+    "professor1": 132,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1076,
+    "professor1": 132,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 63,
+    "professor1": 141,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 142,
+    "professor1": 141,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 143,
+    "professor1": 141,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 101,
+    "professor1": 148,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 145,
+    "professor1": 148,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 146,
+    "professor1": 148,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 147,
+    "professor1": 148,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 149,
+    "professor1": 148,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 112,
+    "professor1": 154,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 153,
+    "professor1": 154,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 155,
+    "professor1": 154,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 1055,
+    "professor1": 154,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 1146,
+    "professor1": 154,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 162,
+    "professor1": 161,
+    "quantity_collaborations": 6
+}, {
+    "professor2": 164,
+    "professor1": 163,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 166,
+    "professor1": 165,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 167,
+    "professor1": 165,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 24,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 52,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 63,
+    "professor1": 166,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 165,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 167,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 172,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 206,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 295,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 296,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 500,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 501,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 561,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 562,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 581,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 782,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 955,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 956,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1103,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1125,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1209,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1256,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1327,
+    "professor1": 166,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 172,
+    "professor1": 171,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 841,
+    "professor1": 171,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 37,
+    "professor1": 183,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 38,
+    "professor1": 183,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 96,
+    "professor1": 183,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 181,
+    "professor1": 183,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 182,
+    "professor1": 183,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 156,
+    "professor1": 186,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 187,
+    "professor1": 186,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 16,
+    "professor1": 203,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 18,
+    "professor1": 203,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 21,
+    "professor1": 203,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 108,
+    "professor1": 203,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 202,
+    "professor1": 203,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 218,
+    "professor1": 217,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 219,
+    "professor1": 217,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 220,
+    "professor1": 217,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 77,
+    "professor1": 254,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 80,
+    "professor1": 254,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 81,
+    "professor1": 254,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 82,
+    "professor1": 254,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 253,
+    "professor1": 254,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 255,
+    "professor1": 254,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 289,
+    "professor1": 291,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 290,
+    "professor1": 291,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 292,
+    "professor1": 291,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 63,
+    "professor1": 295,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 166,
+    "professor1": 295,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 296,
+    "professor1": 295,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 303,
+    "professor1": 302,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 309,
+    "professor1": 310,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 311,
+    "professor1": 310,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 312,
+    "professor1": 310,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 313,
+    "professor1": 310,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 315,
+    "professor1": 314,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 28,
+    "professor1": 327,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 326,
+    "professor1": 327,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 37,
+    "professor1": 332,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 333,
+    "professor1": 332,
+    "quantity_collaborations": 8
+}, {
+    "professor2": 334,
+    "professor1": 332,
+    "quantity_collaborations": 6
+}, {
+    "professor2": 335,
+    "professor1": 332,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 336,
+    "professor1": 332,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 337,
+    "professor1": 332,
+    "quantity_collaborations": 8
+}, {
+    "professor2": 709,
+    "professor1": 332,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 751,
+    "professor1": 332,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 881,
+    "professor1": 332,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1134,
+    "professor1": 332,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1391,
+    "professor1": 332,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 1395,
+    "professor1": 332,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1396,
+    "professor1": 332,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1401,
+    "professor1": 332,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1407,
+    "professor1": 332,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1408,
+    "professor1": 332,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1522,
+    "professor1": 332,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1523,
+    "professor1": 332,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 45,
+    "professor1": 340,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 52,
+    "professor1": 340,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 338,
+    "professor1": 340,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 339,
+    "professor1": 340,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 658,
+    "professor1": 340,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 659,
+    "professor1": 340,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 348,
+    "professor1": 347,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 350,
+    "professor1": 349,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 351,
+    "professor1": 349,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 352,
+    "professor1": 349,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 12,
+    "professor1": 358,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 15,
+    "professor1": 358,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 353,
+    "professor1": 358,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 354,
+    "professor1": 358,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 355,
+    "professor1": 358,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 356,
+    "professor1": 358,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 357,
+    "professor1": 358,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 359,
+    "professor1": 358,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 360,
+    "professor1": 358,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1220,
+    "professor1": 358,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1221,
+    "professor1": 358,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 218,
+    "professor1": 365,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 366,
+    "professor1": 365,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 367,
+    "professor1": 365,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 368,
+    "professor1": 365,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 369,
+    "professor1": 365,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 370,
+    "professor1": 365,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 371,
+    "professor1": 365,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 92,
+    "professor1": 373,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 107,
+    "professor1": 373,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 108,
+    "professor1": 373,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 162,
+    "professor1": 373,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 246,
+    "professor1": 373,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 366,
+    "professor1": 373,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 372,
+    "professor1": 373,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 617,
+    "professor1": 373,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 739,
+    "professor1": 373,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 740,
+    "professor1": 373,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 1135,
+    "professor1": 373,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1210,
+    "professor1": 373,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 311,
+    "professor1": 393,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 391,
+    "professor1": 393,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 392,
+    "professor1": 393,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 415,
+    "professor1": 414,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 416,
+    "professor1": 414,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 417,
+    "professor1": 414,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 215,
+    "professor1": 438,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 430,
+    "professor1": 438,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 431,
+    "professor1": 438,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 432,
+    "professor1": 438,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 433,
+    "professor1": 438,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 434,
+    "professor1": 438,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 435,
+    "professor1": 438,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 436,
+    "professor1": 438,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 437,
+    "professor1": 438,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 439,
+    "professor1": 438,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 440,
+    "professor1": 438,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 441,
+    "professor1": 438,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 485,
+    "professor1": 486,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 487,
+    "professor1": 486,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 488,
+    "professor1": 486,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 489,
+    "professor1": 490,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 491,
+    "professor1": 490,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 492,
+    "professor1": 490,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 493,
+    "professor1": 490,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 218,
+    "professor1": 510,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 408,
+    "professor1": 510,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 507,
+    "professor1": 510,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 508,
+    "professor1": 510,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 509,
+    "professor1": 510,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 40,
+    "professor1": 516,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 517,
+    "professor1": 516,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 518,
+    "professor1": 516,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 519,
+    "professor1": 516,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 40,
+    "professor1": 519,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 516,
+    "professor1": 519,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 517,
+    "professor1": 519,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 1384,
+    "professor1": 519,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1385,
+    "professor1": 519,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 547,
+    "professor1": 546,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 548,
+    "professor1": 546,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 578,
+    "professor1": 577,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 35,
+    "professor1": 582,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 37,
+    "professor1": 644,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 96,
+    "professor1": 644,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 643,
+    "professor1": 644,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 647,
+    "professor1": 646,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 60,
+    "professor1": 681,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 260,
+    "professor1": 681,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 261,
+    "professor1": 681,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 478,
+    "professor1": 681,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 797,
+    "professor1": 796,
+    "quantity_collaborations": 6
+}, {
+    "professor2": 798,
+    "professor1": 796,
+    "quantity_collaborations": 2
+}, {
+    "professor2": 799,
+    "professor1": 796,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1168,
+    "professor1": 796,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 75,
+    "professor1": 826,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 682,
+    "professor1": 826,
+    "quantity_collaborations": 3
+}, {
+    "professor2": 825,
+    "professor1": 826,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 827,
+    "professor1": 826,
+    "quantity_collaborations": 4
+}, {
+    "professor2": 1516,
+    "professor1": 826,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1517,
+    "professor1": 826,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1299,
+    "professor1": 1300,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1301,
+    "professor1": 1300,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1494,
+    "professor1": 1493,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1495,
+    "professor1": 1493,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1496,
+    "professor1": 1493,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1497,
+    "professor1": 1493,
+    "quantity_collaborations": 1
+}, {
+    "professor2": 1498,
+    "professor1": 1493,
+    "quantity_collaborations": 1
+}]

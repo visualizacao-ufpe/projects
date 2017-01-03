@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Mundo CIn - Centro de Informática - Universidade Fedearal de Pernambuco</title>
+	<meta charset="utf-8">
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Materialize CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<!-- D3 V4-->
+	<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+	<!-- D3 V3 -->
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<!-- Crossfilter -->
+	<script type="text/javascript" src="https://rawgithub.com/NickQiZhu/dc.js/master/web/js/crossfilter.js"></script>
+	<!-- dc.js -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dc/1.7.5/dc.min.js"></script>
+	<!-- Local Imports -->
+	<script src="index.js"></script>
+	<script src="bubble.js"></script>
+	<script src="edge.js"></script>
+	<script src="graph.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="edge.css">
+</head>
+
+<body class="teal darken-2">
+	<div id="main" class="row">
+		<!-- TITLE -->
+		<div class="z-depth-5 col s12 teal darken-4 title" style="height: 10vh;">
+			<h3 class="center-align white-text">Mundo CIn</h3>
+		</div>
+		<!-- END TITLE -->
+		<div class="col s12 nopadding nomargin">
+			<!-- PROFESSOR RELATIONS -->
+			<div class="col s12 m12 l6">
+				<div class="card darken-1">
+					<div class="card-content">
+						<span class="card-title">Relacionamento Professor x Professor</span>
+						<div id="vis0" class="fill sm2 md3 lg3 center-align">
+						</div>
+					</div>
+					<div style="padding-top: 0;" class="card-action">
+						<div class="right-align">
+							<ul id="rel-captions" class="dropdown-content">
+								<li style="background: #000000"><a class="white-text" href="#!">Origem</a></li>
+								<li style="background: #f57f17"><a class="black-text" href="#!">Destino</a></li>
+								<li style="background: #80cbc4"><a class="black-text" href="#!">Conexão</a></li>
+								<li style="background: #00695c"><a class="white-text" href="#!">Conexão entre Destino e Origem</a></li>
+
+							</ul>
+							<a class="btn dropdown-button" href="#!" hover="true" data-activates="rel-captions">Legenda<i class="mdi-navigation-arrow-drop-down right"></i></a>
+						</div>
+						<div>
+							<div class="left-align">AGRUPAR:</div>
+							<a href="#" onclick="AgruparPorNome();">por Nome</a>
+							<a href="#" onclick="AgruparPorArea();">por Área de Pesquisa</a>
+						</div>
+						<div class="left-align" style="padding-top: 20px">ANO:</div>
+						<p class="range-field">
+							<input type="range" id="slider" min="2013" max="2016" value="2013" step="1" onchange="filterByYear(this.value)"/>
+						</p>
+						<p class="right-align">
+							<input type="checkbox" class="filled-in" id="allyears" checked="checked" />
+							<label for="allyears" data-position="bottom" data-delay="50" data-tooltip="Selecione esta opção para mostrar dados de todos os anos simultaneamente" class="tooltipped">Todos</label>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- END OF PROFESSOR RELATIONS -->
+
+
+
+
+			<div class="col s12 m12 l6 nopadding nomargin">
+				<!-- ACADEMIC WORK -->
+				<div class="col s12 m12 l12">
+					<div class="card darken-1">
+						<div class="card-content" style="padding-bottom: 0;">
+							<span class="card-title">Trabalhos Acadêmicos</span>
+							<div id="vis1" class="fill sm2">
+							</div>
+						</div>
+						<div style="padding-top: 0;" class="card-action">
+							<div class="right-align">
+								<ul id="ta-captions" class="dropdown-content">
+									<li style="background: #80cbc4"><a class="black-text" href="#!">Trabalhos em Anais</a></li>
+									<li style="background: #00695c"><a class="white-text" href="#!">Artigo em Periodico</a></li>
+									<li style="background: #f57f17"><a class="black-text"href="#!">Livro</a></li>
+								</ul>
+								<a class="btn dropdown-button" href="#!" hover="true" data-activates="ta-captions">Legenda<i class="mdi-navigation-arrow-drop-down right"></i></a>
+							</div>
+							<div>
+								<div class="left-align" id="trabalhos_sendo_mostrados">MOSTRANDO: todos</div>
+								<a href="#" onclick="AgruparPorNome();">LIMPAR FILTROS</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END ACADEMIC WORK -->
+				<div class="col s12 m12 l12">
+					<!-- ACADEMIC CONNECTION -->
+						<div class="card darken-1 fill sm2">
+							<div class="card-content" style="height: 100%">
+								<span class="card-title">Conexões Acadêmicas</span>
+								<div id="vis2" class="nomargin" style="height: 85%">
+								</div>
+							</div>
+							<div style="padding-top: 0;" class="card-action">
+						<div class="right-align">
+							<ul id="col-captions" class="dropdown-content">
+								<li style="background: #000000"><a class="white-text" href="#!">Professor(a)</a></li>
+								<li style="background: #00695c"><a class="white-text" href="#!">Aluno(a)</a></li>
+								<li style="background: #80cbc4"><a class="white-text" href="#!">Orientando(a)</a></li>
+								<li style="background: #f57f17"><a class="black-text" href="#!">Colaborador Externo</a></li>
+								<li style="background: #4d4d4d"><a class="white-text" href="#!">Conexão</a></li>
+								<li style="background: #000000"><a class="white-text" href="#!">Conexão forte</a></li>
+
+
+							</ul>
+							<a class="btn dropdown-button" href="#!" hover="true" data-activates="col-captions">Legenda<i class="mdi-navigation-arrow-drop-down right"></i></a>
+						</div>
+						</div>
+						</div>
+					<!-- END ACADEMIC CONNECTION-->
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	var dataGlobal;
+	var dataTeachersGlobal;
+	var data_professorsGlobal;
+	var data_collaboratiosGlobal;
+	var cfGlobal;
+	var byIDsGlobal;
+	var cfCollaborationsGlobal;
+	var byProfessorNameGlobal;
+	var byYearGlobal;
+	var nameGlobal;
+
+	function loadData() {
+
+		d3.json("data_with_index.json", function(data) {
+			d3.json("work_and_collaboration_by_professor.json", function(data_professors) {
+				d3.csv("teachers.csv", function(dataTeachers) {
+					d3.json("new_professors_and_collaborations.json", function(data_collaboratios) {
+					console.log(data_collaboratios)
+				  // Create dimension by Works
+				  //var byIDs = cf.dimension(function(p) {return p.index;});
+				  //var byProfessorName = cfCollaborations.dimension(function(p) {return p.name;});
+					//byProfessorName.filter("JAELSON FREIRE BRELAZ DE CASTRO");
+					//byProfessorName.filter("EDSON COSTA DE BARROS CARVALHO FILHO");
+					//console.log(byProfessorName.top(Infinity)[0]['collaborators'])
+					//draw_connection_graph("JAELSON FREIRE BRELAZ DE CASTRO",byProfessorName.top(Infinity)[0]['collaborators'],false);
+					//draw_connection_graph("EDSON COSTA DE BARROS CARVALHO FILHO",byProfessorName.top(Infinity)[0]['collaborators']);
+
+					dataGlobal = data;
+					dataTeachersGlobal = dataTeachers;
+					data_professorsGlobal = data_professors;
+					data_collaboratiosGlobal = data_collaboratios;
+					cfGlobal = crossfilter(dataGlobal);
+					cfCollaborationsGlobal = crossfilter(dataGlobal)
+					byIDsGlobal = cfGlobal.dimension(function(p) {return p.index;});
+					byProfessorNameGlobal = cfCollaborationsGlobal.dimension(function(p) {return p.name;});
+					byYearGlobal = cfCollaborationsGlobal.dimension(function(p) {return p.year;});
+
+					draw_bubble_graph(byIDsGlobal.top(Infinity),-1,false);
+					$('.tooltipped').tooltip({
+			    	delay: 50
+			    });
+					AgruparPorNome();
+
+				});
+				});
+			});
+		});
+
+
+	}
+	$(document).ready(loadData);
+
+	function AgruparPorNome(){
+		byIDsGlobal.filterAll();
+		byProfessorNameGlobal.filterAll();
+		byProfessorNameGlobal.filter("JAELSON FREIRE BRELAZ DE CASTRO");
+		nameGlobal = "JAELSON FREIRE BRELAZ DE CASTRO";
+		d3.select("#trabalhos_sendo_mostrados")[0][0].innerHTML = "MOSTRANDO: todos"
+		clearYearFilter();
+		console.log(d3.select("#trabalhos_sendo_mostrados")[0][0].innerHTML)
+		draw_bubble_graph(byIDsGlobal.top(Infinity),-1,true);
+		draw_connection_graph(dataGlobal,"JAELSON FREIRE BRELAZ DE CASTRO",true);
+		draw_relation_graph(dataGlobal,dataTeachersGlobal,false,true, function(name) {
+					console.log("callback called! " + name);
+					console.log("callback called! " + name);
+					filterWorksByProfessor(name.toUpperCase());
+					var full_name = getFullProfessorName(name)
+					byProfessorNameGlobal.filterAll();
+					byProfessorNameGlobal.filter(full_name);
+					console.log(byProfessorNameGlobal.top(Infinity))
+					nameGlobal = full_name;
+					draw_connection_graph(dataGlobal,full_name,true);
+					d3.select("#trabalhos_sendo_mostrados")[0][0].innerHTML = "MOSTRANDO: "+name
+					console.log(d3.select("#trabalhos_sendo_mostrados")[0][0].innerHTML)
+					clearYearFilter();
+		});
+
+		$('.tooltipped').tooltip({
+    	delay: 50
+    });
+
+
+		return false;
+	};
+
+	function AgruparPorArea(){
+		byIDsGlobal.filterAll();
+		byProfessorNameGlobal.filterAll();
+		byProfessorNameGlobal.filter("JAELSON FREIRE BRELAZ DE CASTRO")
+		nameGlobal = "JAELSON FREIRE BRELAZ DE CASTRO";
+		draw_bubble_graph(byIDsGlobal.top(Infinity),-1,true);
+		draw_connection_graph(dataGlobal,"JAELSON FREIRE BRELAZ DE CASTRO",true);
+		d3.select("#trabalhos_sendo_mostrados")[0][0].innerHTML = "MOSTRANDO: todos"
+		clearYearFilter();
+		console.log(d3.select("#trabalhos_sendo_mostrados")[0][0].innerHTML)
+		draw_relation_graph(dataGlobal,dataTeachersGlobal,true,true, function(name) {
+					console.log("callback called! " + name);
+					console.log("callback called! " + name);
+					filterWorksByProfessor(name.toUpperCase());
+					byProfessorNameGlobal.filterAll();
+					console.log("NOME DENTRO DO GRAPH")
+					console.log(name)
+					console.log("NAME FULL")
+					var name_filtered = filterNameWithResearchArea(name)
+					console.log(getFullProfessorName(name_filtered))
+					byProfessorNameGlobal.filterAll();
+					byProfessorNameGlobal.filter(getFullProfessorName(name_filtered));
+					nameGlobal = getFullProfessorName(name_filtered);
+					draw_connection_graph(dataGlobal,getFullProfessorName(name_filtered),true);
+					d3.select("#trabalhos_sendo_mostrados")[0][0].innerHTML = "MOSTRANDO: "+name
+					console.log(d3.select("#trabalhos_sendo_mostrados")[0][0].innerHTML)
+					clearYearFilter();
+		});
+
+		$('.tooltipped').tooltip({
+    	delay: 50
+    });
+
+		return false;
+	};
+
+	function filterWorksByProfessor(professor_name){
+		var professor_name_filtered = professor_name;
+		if (professor_name_filtered.indexOf('.') > -1){
+			professor_name_filtered = professor_name.substring(professor_name.indexOf(".")+1,professor_name.length)
+		}
+		var res = professor_name_filtered.split(" ")
+		var professor_name_short = res[0]+ " " + res[res.length-1];
+		//Filters
+		byIDsGlobal.filterAll();
+		var professor = data_professorsGlobal.find(function(element, index, array) {
+			var res = element.name.split(" ")
+			var element_name_short = res[0]+ " " + res[res.length-1];
+			return professor_name_short === element_name_short;
+		});
+		console.log("PROFESSOR ",professor);
+		// Array of things you want to filter
+		var f = professor.works;
+		console.log(professor.works)
+		byIDsGlobal.filterAll();
+		byIDsGlobal.filter(function(d){
+			 return f.indexOf(d) > -1;
+		 });
+		console.log(byIDsGlobal.top(Infinity));
+		draw_bubble_graph(byIDsGlobal.top(Infinity),-1,true);
+		$('.tooltipped').tooltip({
+    	delay: 50
+    });
+	};
+
+	function getFullProfessorName(name){
+		name = name.toUpperCase()
+		var professor = data_professorsGlobal.find(function(element, index, array) {
+			var res = element.name.split(" ")
+			var element_name_short = res[0]+ " " + res[res.length-1];
+			return name === element_name_short;
+		});
+		return professor['name']
+	}
+
+	function filterNameWithResearchArea(name_with_research){
+		var professor_name_filtered = name_with_research.toUpperCase();
+		if (professor_name_filtered.indexOf('.') > -1){
+			professor_name_filtered = name_with_research.substring(name_with_research.indexOf(".")+1,name_with_research.length)
+		}
+		return professor_name_filtered
+	}
+
+	function filterByYear(newYear){
+		byYearGlobal.filterAll();
+		console.log("newYear")
+		console.log(newYear)
+		d3.select("#allyears").property('checked', false);
+		draw_bubble_graph(byIDsGlobal.top(Infinity),newYear,true);
+		byYearGlobal.filter(newYear);
+		console.log(byYearGlobal.top(Infinity));
+		//draw_connection_graph(byYearGlobal.top(Infinity),nameGlobal,true);
+		$('.tooltipped').tooltip({
+    	delay: 50
+    });
+	}
+
+	function clearYearFilter(){
+		d3.select("#slider").property("value", "2013");
+		draw_bubble_graph(byIDsGlobal.top(Infinity),-1,true);
+		$('.tooltipped').tooltip({
+    	delay: 50
+    });
+		d3.select("#allyears").property('checked', true);
+		//byYearGlobal.filterAll();
+		//draw_connection_graph(byYearGlobal.top(Infinity),nameGlobal,true);
+	}
+
+	d3.select("#allyears").on("change", function() {
+	  var type = this.value;
+		if(this.checked){
+			clearYearFilter()
+		}
+	});
+
+	$('.tooltipped').tooltip({
+		delay: 50
+	});
+
+	</script>
+</body>
+
+</html>

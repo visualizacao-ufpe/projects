@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Mundo CIn - Centro de Informática - Universidade Fedearal de Pernambuco</title>
+	<meta charset="utf-8">
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Materialize CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<!-- D3 V4-->
+	<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+	<!-- D3 V3 -->
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<!-- Local Imports -->
+	<script src="index.js"></script>
+	<script src="bubble.js"></script>
+	<script src="edge.js"></script>
+	<script src="graph.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="edge.css">
+</head>
+
+<body class="teal darken-3">
+	<div id="main" class="row">
+		<!-- TITLE -->
+		<div class="z-depth-5 col s12 teal darken-4 title">
+			<h3 class="center-align white-text">Mundo CIn</h3>
+		</div>
+		<!-- END TITLE -->
+		<div class="col s12 nopadding nomargin">
+			<!-- PROFESSOR RELATIONS -->
+			<div class="col s12 m12 l6">
+				<div class="card darken-1">
+					<div class="card-content">
+						<span class="card-title">Relacionamento Professor x Professor</span>
+						<div class="input-field col sm6 left-align" style="vertical-align: text-top; float: right;">
+							<select multiple>
+								<option value="" disabled selected>Escolha um filtro</option>
+								<option for="filter1" data-position="bottom" data-delay="50" data-tooltip="Engenharia de Software" class="tooltipped" value="1">ES</option>
+								<option for="filter2" data-position="bottom" data-delay="50" data-tooltip="Inteligencia Artificial Simbólica" class="tooltipped" value="2">AS</option>
+								<option for="filter3" data-position="bottom" data-delay="50" data-tooltip="Redes de Computadores" class="tooltipped" value="3">RC</option>
+								<option for="filter4" data-position="bottom" data-delay="50" data-tooltip="Sistemas Distribuídos" class="tooltipped" value="4">SiD</option>
+								<option for="filter5" data-position="bottom" data-delay="50" data-tooltip="Mídia e Intetação" class="tooltipped" value="5">MI</option>
+								<option for="filter6" data-position="bottom" data-delay="50" data-tooltip="Não Informado" class="tooltipped" value="6">NI</option>
+								<option for="filter7" data-position="bottom" data-delay="50" data-tooltip="Banco de Dados" class="tooltipped" value="7">BD</option>
+								<option for="filter8" data-position="bottom" data-delay="50" data-tooltip="Redes Neurais" class="tooltipped" value="8">RN</option>
+								<option for="filter9" data-position="bottom" data-delay="50" data-tooltip="Processamento de Imagem" class="tooltipped" value="9">PI</option>
+								<option for="filter10" data-position="bottom" data-delay="50" data-tooltip="Lógica e Sistemas Dedutivos" class="tooltipped" value="10">LSD</option>
+								<option for="filter11" data-position="bottom" data-delay="50" data-tooltip="Análise de Dados Simbólica e/ou Númericos e Metódos Afins" class="tooltipped" value="11">ADSNMA</option>
+								<option for="filter12" data-position="bottom" data-delay="50" data-tooltip="Algoritmos e Complexidade" class="tooltipped" value="12">AlC</option>
+								<option for="filter13" data-position="bottom" data-delay="50" data-tooltip="Arquitetura de Computadores" class="tooltipped" value="13">ArC</option>
+								<option for="filter14" data-position="bottom" data-delay="50" data-tooltip="Matemática Computacional" class="tooltipped" value="14">MC</option>
+								<option for="filter15" data-position="bottom" data-delay="50" data-tooltip="Engenharia da Computação" class="tooltipped" value="15">EC</option>
+								<option for="filter16" data-position="bottom" data-delay="50" data-tooltip="Processamento de Linguagem Natural" class="tooltipped" value="16">PLN</option>
+								<option for="filter17" data-position="bottom" data-delay="50" data-tooltip="Gestão do Conhecimento Aplicada aos Sistemas de Informação" class="tooltipped" value="17">GCASI</option>
+								<option for="filter18" data-position="bottom" data-delay="50" data-tooltip="Linguagens de Programação" class="tooltipped" value="18">LP</option>
+								<option for="filter19" data-position="bottom" data-delay="50" data-tooltip="Sistemas Digitais" class="tooltipped" value="19">SDi</option>
+								<option for="filter20" data-position="bottom" data-delay="50" data-tooltip="Administração e Integração de Sistemas" class="tooltipped" value="20">AIS</option>
+							</select>
+							<label>Filtro de Area</label>
+						</div>
+						<div id="vis0" class="fill sm2 md3 lg3 center-align">
+							<svg></svg>
+						</div>
+					</div>
+					<div style="padding-top: 0;" class="card-action">
+						<div class="right-align">
+							<ul id="rel-captions" class="dropdown-content">
+								<li style="background: #000000"><a class="white-text" href="#!">Origem</a></li>
+								<li style="background: #B29009"><a class="black-text" href="#!">Destino</a></li>
+								<li style="background: #80cbc4"><a class="black-text" href="#!">Conexão</a></li>
+								<li style="background: #00695c"><a class="white-text" href="#!">Com áreas em comum</a></li>
+								<li style="background: #f57f17"><a class="black-text" href="#!">Sem áreas em comum</a></li>
+							</ul>
+							<a class="btn dropdown-button" href="#!" hover="true" data-activates="rel-captions">Legenda<i class="mdi-navigation-arrow-drop-down right"></i></a>
+						</div>
+						<div>
+							<div class="left-align">AGRUPAR:</div>
+							<a href="">por Nome</a>
+							<a href="">por Área de Pesquisa</a>
+						</div>
+						<div class="left-align" style="padding-top: 20px">ANO:</div>
+						<p class="range-field">
+							<input type="range" id="slider" min="2013" max="2016" value="2013"/>
+						</p>
+						<p class="right-align">
+							<input type="checkbox" class="filled-in" id="allyears" checked="checked" />
+							<label for="allyears" data-position="bottom" data-delay="50" data-tooltip="Selecione esta opção para mostrar dados de todos os anos simultaneamente" class="tooltipped">Todos</label>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- END OF PROFESSOR RELATIONS -->
+			<div class="col s12 m12 l6 nopadding nomargin">
+				<!-- ACADEMIC WORK -->
+				<div class="col s12 m12 l12">
+					<div class="card darken-1">
+						<div class="card-content" style="padding-bottom: 0;">
+							<span class="card-title">Trabalhos Acadêmicos</span>
+							<div id="vis1" class="fill sm2">
+								<svg></svg>
+							</div>
+						</div>
+						<div style="padding-top: 0;" class="card-action">
+							<div class="right-align">
+								<ul id="ta-captions" class="dropdown-content">
+									<li style="background: #80cbc4"><a class="black-text" href="#!">Trabalhos em Anais</a></li>
+									<li style="background: #00695c"><a class="white-text" href="#!">Artigo em Periodico</a></li>
+									<li style="background: #f57f17"><a class="black-text"href="#!">Livro</a></li>
+								</ul>
+								<a class="btn dropdown-button" href="#!" hover="true" data-activates="ta-captions">Legenda<i class="mdi-navigation-arrow-drop-down right"></i></a>
+							</div>
+							<div>
+								<div class="left-align">AGRUPAR:</div>
+								<a href="">por Nome</a>
+								<a href="">por Área de Pesquisa</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END ACADEMIC WORK -->
+				<div class="col s12 m12 l12">
+					<!-- ACADEMIC CONNECTION -->
+						<div class="card darken-1 fill sm2">
+							<div class="card-content" style="height: 100%">
+								<span class="card-title">Conexões Acadêmicas</span>
+								<div id="vis2" class="nomargin" style="height: 85%">
+									<svg>
+
+									</svg>
+								</div>
+							</div>
+							<div style="padding-top: 0;" class="card-action">
+						<div class="right-align">
+							<ul id="col-captions" class="dropdown-content">
+								<li style="background: #000000"><a class="white-text" href="#!">Professor(a)</a></li>
+								<li style="background: #00695c"><a class="white-text" href="#!">Aluno(a)</a></li>
+								<li style="background: #80cbc4"><a class="white-text" href="#!">Destino</a></li>
+								<li style="background: #f57f17"><a class="black-text" href="#!">Colaborador Externo</a></li>
+								<li style="background: #4d4d4d"><a class="white-text" href="#!">Conexão</a></li>
+								
+								
+							</ul>
+							<a class="btn dropdown-button" href="#!" hover="true" data-activates="col-captions">Legenda<i class="mdi-navigation-arrow-drop-down right"></i></a>
+						</div>
+						</div>
+						</div>
+					<!-- END ACADEMIC CONNECTION-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			draw_relation_graph();
+			draw_connection_graph();
+			$(document).ready(function() {
+				$('select').material_select();
+			});
+			$('.tooltipped').tooltip({
+				delay: 50
+			});
+		});
+	</script>
+</body>
+
+</html>
