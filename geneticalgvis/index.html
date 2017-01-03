@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Visualização de Algoritmos Genéticos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/helpers.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <h2>Visualização de Algoritmos Genéticos</h2>
+        <h3>Problema das 8 Rainhas</h3>
+        <nav class="nav-bar">
+            <ul class="container clearfix menu-select"></ul>
+        </nav>
+        <article class="container clearfix">
+            <section>
+                <h4>Algoritmo 1</h4>
+                <ul>
+                    <li>Seleção de Pais: Torneio Simples</li>
+                    <li>Recombinação: A selecionar</li>
+                    <li>Mutação: Insertion</li>
+                    <li>Seleção de Sobreviventes: Elitismo</li>
+                </ul>    
+            </section>
+            
+            <section>
+                <h4>A) Algoritmo 2</h4>
+                <ul>
+                    <li>Seleção de Sobreviventes: Replace Worst</li>
+                </ul>
+                        
+            </section>
+            
+            <section>
+                <h4>B) Algoritmo 3</h4>
+                <ul>
+                    <li>Mutação: Swap</li>
+                </ul>
+               
+            </section>
+            
+            <section>
+                <h4>C) Algoritmo 4</h4>
+                <ul>
+                    <li>Mutação: Inversion </li>
+                </ul>
+            </section>
+            
+            <section>
+                <h4>D) Algoritmo 5</h4>
+                <ul>
+                    <li>Seleção de Pais: Torneio</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h4>E) Algoritmo 6</h4>
+                <ul>
+                    <li>Seleção de Pais: Roleta  </li>
+                </ul>
+            </section>
+        </article>
+
+        <div id="view1" class="view">
+            <h3>PMX1</h3>
+        </div>
+        <div id="view2" class="view">
+            <h3>PMX2</h3>
+        </div>
+    </div>
+    <script>
+    
+    </script>
+    <!-- scripts -->
+    <!--<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>-->
+    <!--<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ramda/0.22.1/ramda.min.js"></script>
+    <script src="js/vendor/d3.v4.min.js"></script>
+    <script src="js/vendor/d3-selection-multi.min.js"></script>
+    <script src="js/vendor/colorbrewer.min.js"></script>
+
+    <!-- JS Modules -->
+
+    <script src="js/boxPlots.js"></script>
+
+    <script src="js/vendor/pca.js"></script>
+ 
+    <script src="js/pcaPlots.js"></script>
+
+    <script src="js/tree.js"></script>
+    
+    <script src="js/coordinates.js"></script>
+    
+    <!-- main -->
+    <script src="js/main.js"></script>
+    
+    <script src="js/bars.js"></script>
+    
+    <script src="js/dendogram.js"></script>
+
+</body>
+</html>
