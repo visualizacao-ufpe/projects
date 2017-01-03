@@ -1,0 +1,18 @@
+.toolTip2 {
+  position: absolute;
+  display: none;
+  min-width: 15px;
+  height: 15px;
+  /*background: none repeat scroll 0 0 #ffffff;*/
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  font-size:10pt;
+ /* font-family:Calibri; text-align: center;*/ 
+}
+
+.node text {
+  pointer-events: none;
+  font-size: 10px; 
+  font-family: sans-serif;
+}

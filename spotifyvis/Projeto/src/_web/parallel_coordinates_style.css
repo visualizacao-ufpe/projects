@@ -1,0 +1,58 @@
+/* Parallel Coordinates */
+
+/*.background path {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+
+/*.foreground path {
+  fill: none;
+  stroke: red;
+}*/
+
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 5px;
+  height: 5px;
+  /*background: none repeat scroll 0 0 #ffffff;*/
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 5px 15px 15px 15px;
+  font-size: 10pt;
+  font-color: white;
+ /* font-family:Calibri; text-align: center;*/ 
+}
+
+.toolTip2 {
+  position: absolute;
+  display: none;
+  min-width: 15px;
+  height: 60px;
+  /*background: none repeat scroll 0 0 #ffffff;*/
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 15px 15px 15px;
+  font-size: 10pt;
+  font-color: white;
+ /* font-family:Calibri; text-align: center;*/ 
+}
+
+.container {
+  float: right;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  fill: black;
+  size: 12px;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move;
+}

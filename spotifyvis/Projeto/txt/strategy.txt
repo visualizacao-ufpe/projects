@@ -1,0 +1,77 @@
+Initial types of visualization:
+
+1. Audio features within an artist
+    - parallel coordinates
+    - histograms
+    * Finish brush selection
+    * We need to come up with a way to view which line corresponds to which song in the visualization
+
+2. Artist's "progression" i.e. "change" of style between albums
+    - ???
+    * How to calculate the change from one album to another? Average? Difference?
+
+Albuns : 
+The Beatles (v)
+Michael Jackson (? - maintain posthumous albuns?)
+Pink Floyd (v)
+Metallica (v)
+Radiohead (v)
+Madonna (v)
+2Pac (Tupac Shakur) (v)
+
+*Gathering:
+Nirvana (4/4)
+Eminem (7/8)
+Led Zeppelin (9/9)
+The Clash (5/6)
+Talking Heads (8/8)
+
+
+3. Artist X Artist
+    - Force-grid graph
+    * How to compare artists? How to calculate the difference between artists?
+    
+What we need from audio features:
+danceability
+energy
+key
+loudness
+mode
+speechiness
+acousticness
+instrumentalness
+liveness
+valence
+tempo
+duration_ms
+time_signature
+    
+Qualitative:
+Key
+Time Signature
+Mode
+
+Quantitative that are not so interesting:
+duration_ms
+Liveness 
+Speechiness 
+Instrumentalness
+Acousticness 
+Tempo
+Loudness
+
+Quantitative more interesting :
+Energy
+Danceability
+Valence 
+
+
+Useful links : 
+1) http://bl.ocks.org/nbremer/21746a9668ffdf6d8242 (Radar Chart ) 
+2) http://bl.ocks.org/nbremer/6506614 (Radar Chart )
+3) https://d3plus.org/examples/basic/78018ce8c3787d4e30d9/ (Box and Whisker)
+
+FINAL TWEAKS:
+> Integrate boxplot/scatterplot view into coordinated view
+> Add some indication that an artist has albums to show
+> Join jsons

@@ -1,0 +1,11 @@
+{
+  "author": "ftm-rvsa2-jgsjv",
+  "name": "spotify-audtio-features-visualization",
+  "description": "Visualization of tracks' audio features from Spotify",
+  "version": "0.0.1",
+  "dependencies": {
+    "jsonfile": "latest",
+    "request": "latest",
+    "spotify-web-api-js": "latest"
+  }
+}

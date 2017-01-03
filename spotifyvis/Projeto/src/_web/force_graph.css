@@ -1,0 +1,12 @@
+.toolTipNode {
+  position: absolute;
+  display: none;
+  min-width: 5px;
+  height: 5px;
+  /*background: none repeat scroll 0 0 #ffffff;*/
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 5px 15px 15px 15px;
+  font-size: 10pt;
+ /* font-family:Calibri; text-align: center;*/ 
+}

@@ -1,0 +1,25 @@
+.toolTipPlotBox {
+  position: absolute;
+  display: none;
+  min-width: 40px;
+  height: 80px;
+  /*background: none repeat scroll 0 0 #ffffff;*/
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px 15px 15px 15px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.toolTipPlotScatter {
+  position: absolute;
+  display: none;
+  min-width: 5px;
+  height: 5px;
+  /*background: none repeat scroll 0 0 #ffffff;*/
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px 15px 15px 15px;
+  text-align: left;
+  vertical-align: middle;
+}

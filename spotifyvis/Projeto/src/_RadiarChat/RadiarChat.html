@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/ >
+		<title>Smoothed D3.js Radar Chart</title>
+
+		<!-- Google fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+		<!-- D3.js -->
+		<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+		
+		<style>
+			body {
+				font-family: 'Open Sans', sans-serif;
+				font-size: 11px;
+				font-weight: 300;
+				fill: #242424;
+				text-align: center;
+				text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+				cursor: default;
+			}
+			
+			.legend {
+				font-family: 'Raleway', sans-serif;
+				fill: #333333;
+			}
+			
+			.tooltip {
+				fill: #333333;
+			}
+		</style>
+	
+	</head>
+	<body>
+
+		<div class="radarChart"></div>
+		<script type="text/javascript" src="../radarChart.js"></script>	
+		<script>
+
+var ListOfArtist = ["The Beatles","Bob Dylan","Elvis Presley","The Rolling Stones","Chuck Berry","Jimi Hendrix","James Brown","Little Richard","Aretha Franklin","Ray Charles","Bob Marley","The Beach Boys", 
+"Buddy Holly","Led Zeppelin","Stevie Wonder","Sam Cooke","Muddy Waters","Marvin Gaye","The Velvet Underground","Bo Diddley","Otis Redding","U2","Bruce Springsteen","Jerry Lee Lewis",  
+"Fats Domino","Ramones","The Clash","The Who","Nirvana","Johnny Cash","Smokey Robinson","The Everly Brothers","Neil Young","Michael Jackson","Madonna","Roy Orbison","John Lennon", 
+"David Bowie","Simon & Garfunkel","The Doors","Van Morrison","Sly Stone","Public Enemy","The Byrds","Janis Joplin","Patti Smith","Run-D.M.C.","Elton John","The Band","Pink Floyd",
+"Queen","The Allman Brothers Band" ,"Howlin Wolf","Eric Clapton","Dr. Dre","Grateful Dead","Funkadelic Parliament","Aerosmith","The Sex Pistols","Metallica","Joni Mitchell",
+"Tina Turner","Phil Spector","The Kinks","Al Green","Cream","The Temptations","Jackie Wilson","The Police","Frank Zappa","AC/DC","Radiohead","Hank Williams","Eagles","The Shirelles",
+"Beastie Boys","The Stooges","The Four Tops","Elvis Costello","The Drifters","Creedence Clearwater Revival","Eminem","James Taylor","Black Sabbath","Tupac Shakur","Gram Parsons",
+"Jay Z","The Yardbirds","Carlos Santana","Tom Petty","Guns N' Roses","Booker T. & the M.G.s","Nine Inch Nails","Lynyrd Skynyrd","The Supremes","R.E.M.","Curtis Mayfield","Carl Perkins","Talking Heads"];
+
+
+			////////////////////////////////////////////////////////////// 
+			//////////////////////// Set-Up ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var margin = {top: 100, right: 100, bottom: 100, left: 100},
+				width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
+				height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+					
+			////////////////////////////////////////////////////////////// 
+			////////////////////////// Data ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+			var data =[];
+			var aux =[];
+			var dadosFinais =[];
+			d3.json("../../json/Base_Artist_20_Musics_Feature.json", function(error, Base_Artist_20_Musics_Feature){
+				    for(var i =0;i<Base_Artist_20_Musics_Feature.artists_20_musics.length;i++){
+				      aux.push(Base_Artist_20_Musics_Feature.artists_20_musics[i].musics);
+				    }
+				   // console.log(aux);
+
+				    for(var i =0;i<aux.length;i++){
+				    	var musics = aux[i];
+				    	//console.log("artista ",musics);
+				    	var arstistaobj = [];
+				    	for(var j =0;j<musics.length;j++){
+				    	//console.log	(musics[j]);
+				    		var obj = [
+										{axis:"Danceability",value:musics[j].danceability},
+										{axis:"Energy",value:musics[j].energy},
+										{axis:"Loudness",value:musics[j].loudness},
+										{axis:"Speechiness",value:musics[j].speechiness},
+										{axis:"Acousticness",value:musics[j].acousticness},
+										{axis:"Instrumentalness",value:musics[j].instrumentalness},
+										{axis:"Liveness",value:musics[j].liveness},
+										{axis:"Valence",value:musics[j].valence},
+										//{axis:"Energy",value:musics[j].energy},
+										{axis:"Tempo",value:musics[j].tempo}
+										//{axis:"Mode",value:musics[j].mode},
+										
+										
+										//{axis:"Time Signature",value:musics[j].time_signature}
+							]
+							arstistaobj.push(obj);
+
+						}
+
+						dadosFinais.push(arstistaobj);
+					}	
+					//console.log("base final ",dadosFinais);
+					//console.log("beatles ",dadosFinais[0]);
+					data = dadosFinais[0];
+					drawChart(data);
+				  });
+			////////////////////////////////////////////////////////////// 
+			//////////////////// Draw the Chart ////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+				var select = d3.select('body')
+				  .append("div")
+				  .append('select')
+				  .attr('class','select')
+				  .on('change',onchange)
+
+				var options = select
+				  .selectAll('option')
+				  .data(ListOfArtist).enter()
+				  .append('option')
+				  .text(function (d) { return d; });
+
+			function onchange() {
+			  var artists = d3.select('select').property('value');
+			  selected_artist_position = ListOfArtist.indexOf(artists);
+			  data = dadosFinais[selected_artist_position];
+
+			  drawChart(data);
+			}
+
+
+			function drawChart(data){
+
+			
+			var color =  d3.scaleOrdinal(d3.schemeCategory20);
+				
+			var radarChartOptions = {
+			  w: width,
+			  h: height,
+			  margin: margin,
+			  maxValue: 0.5,
+			  levels: 5,
+			  roundStrokes: true,
+			  color: color
+			};
+			//Call function to draw the Radar chart
+			RadarChart(".radarChart", data, radarChartOptions);
+		}
+		</script>
+	</body>
+</html>
