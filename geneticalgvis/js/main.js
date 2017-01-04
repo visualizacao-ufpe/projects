@@ -119,9 +119,9 @@ var selectedAlgorithm = ['3', '6'];
     function init() {
         //#begin
         updateDataset([
-            '../scripts/dataset.json',
-            '../scripts/treeData.json',
-            '../scripts/leaves.json',
+            'scripts/dataset.json',
+            'scripts/treeData.json',
+            'scripts/leaves.json',
             ])
             .then(function(data){
                 
