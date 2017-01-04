@@ -5,7 +5,7 @@ SystemJS.config({
     "visu-congresso/": "src/"
   },
   browserConfig: {
-    "baseURL": "/"
+    "baseURL": "/meucongresso/"
   },
   devConfig: {
     "map": {
