@@ -1,0 +1,20 @@
+{
+  "main": "build/d3-request.node.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "index.js": {
+      "format": "esm"
+    },
+    "src/*": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./build/d3-request.node.js": {
+      "browser": "./build/d3-request.js"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "main": "build/d3.node.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "build/d3.min.js": {
+      "format": "amd"
+    },
+    "build/package.js": {
+      "format": "esm"
+    },
+    "index.js": {
+      "format": "esm"
+    },
+    "rollup.config.js": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./build/d3.node.js": {
+      "browser": "./build/d3.js"
+    }
+  }
+}

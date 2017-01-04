@@ -1,0 +1,10 @@
+{
+  "main": "d3.js",
+  "meta": {
+    "d3.js": {
+      "exports": "d3",
+      "format": "global"
+    }
+  },
+  "format": "cjs"
+}

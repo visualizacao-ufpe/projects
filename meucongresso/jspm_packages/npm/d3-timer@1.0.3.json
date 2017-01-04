@@ -1,0 +1,18 @@
+{
+  "main": "build/d3-timer.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "build/d3-timer.min.js": {
+      "format": "amd"
+    },
+    "index.js": {
+      "format": "esm"
+    },
+    "src/*": {
+      "format": "esm"
+    }
+  }
+}

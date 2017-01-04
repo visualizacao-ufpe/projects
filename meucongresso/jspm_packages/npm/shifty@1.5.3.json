@@ -1,0 +1,12 @@
+{
+  "main": "dist/shifty.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "dist/doc/assets/vendor/prettify/prettify-min.js": {
+      "format": "amd"
+    }
+  }
+}

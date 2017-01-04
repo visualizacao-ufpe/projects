@@ -1,0 +1,17 @@
+{
+  "main": "src/main.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "dist/progressbar.js": {
+      "cjsRequireDetection": false
+    }
+  }
+}

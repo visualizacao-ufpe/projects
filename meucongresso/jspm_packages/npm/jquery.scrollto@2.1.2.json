@@ -1,0 +1,24 @@
+{
+  "main": "jquery.scrollTo.js",
+  "format": "global",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "LICENSE": {
+      "globals": {
+        "process": null
+      }
+    },
+    "jquery.scrollTo.js": {
+      "globals": {
+        "process": null
+      }
+    },
+    "jquery.scrollTo.min.js": {
+      "globals": {
+        "process": null
+      }
+    }
+  }
+}

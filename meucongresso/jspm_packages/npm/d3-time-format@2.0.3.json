@@ -1,0 +1,15 @@
+{
+  "main": "build/d3-time-format.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "index.js": {
+      "format": "esm"
+    },
+    "src/*": {
+      "format": "esm"
+    }
+  }
+}

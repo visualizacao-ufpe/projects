@@ -1,0 +1,18 @@
+{
+  "main": "build/d3-color.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "build/d3-color.min.js": {
+      "format": "amd"
+    },
+    "index.js": {
+      "format": "esm"
+    },
+    "src/*": {
+      "format": "esm"
+    }
+  }
+}

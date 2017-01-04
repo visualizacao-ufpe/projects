@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Congresso Brasileiro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="ribbons">
+		<div id="qnt-parlamentares" class="item ribbon">
+			<h1>780 parlamentares</h1>
+		</div>
+		<div id="qnt-gastos" class="item ribbon">
+			<h1>0 transações</h1>
+		</div>
+		<div id="total-gastos" class="item ribbon">
+			<h1>R$: 0,00</h1>
+		</div>
+		<div id="por-homens" class="item ribbon">
+			<h1>365 dias</h1>
+		</div>
+		<div id="por-mulheres" class="item ribbon">
+			<h1>100 empresas</h1>
+		</div>
+	</div>
+	<div id="menu">
+	    <div class="row">
+	        <span class="form-label">Tipo do StackedBars: </span>
+	        <select id="select-tipo" class="form-control" style="width: 200px">
+	          <option value="1">Genero</option>
+	          <option value="2">Tipo do gasto</option>
+	        </select>
+	    </div>
+		<div class="row">
+	        <span class="form-label">Métrica do StackedBars: </span>
+	        <select id="select-skb-metrica" class="form-control" style="width: 200px">
+	          <option value="1">Gasto médio</option>
+	          <option value="2">Gasto absoluto</option>
+	        </select>
+	    </div>
+		<div class="row">
+	        <span class="form-label">Normalização dos valores: </span>
+	        <select id="select-skb-exhi" class="form-control" style="width: 200px">
+			  <option value="1">Absoluto</option>
+	          <option value="2">Percentual</option>
+	        </select>
+	    </div>
+	</div>
+    <div id="main-container">
+        <div id="loading">
+            <div id="loading-circle"></div>
+        </div>
+        <div class="column-container item">
+            <div id="treemap-container" class="item">
+            </div>
+        </div>
+        <div class="column-container item">
+            <div id="map-container">
+            </div>
+            <div id="stackedbars-container" class="item">
+            </div>
+        </div>
+    </div>
+	<!-- loading-app:start -->
+	<script src="jspm_packages/system.js"></script>
+	<script src="jspm.config.js"></script>
+	<script type="text/javascript">
+    // load main module of your app with SystemJS
+    SystemJS.trace = true;
+    SystemJS.import('src/app');
+  </script>
+	<!-- loading-app:end -->
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+{
+  "main": "index.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "lib/rw/decode.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "lib/rw/encode.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "lib/rw/read-file-sync.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  }
+}
