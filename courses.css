@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700|Arimo:400,700);
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    font-family: 'Arimo', sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Arimo', sans-serif;
+}
+
+table {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td p {
+    margin: 2px;
+}
+
+tr.odd {
+    background: #eee;
+}
+
+tr.even {
+    background: #fff;
+}
+
+#TOC ul {
+    list-style: none;
+    padding-left: 2px;
+}
+
+#nav-index {
+    display: none;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
