@@ -23,6 +23,7 @@
       <style type="text/css">code{white-space: pre;}</style>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
       <link rel="stylesheet" href="courses.css" type="text/css" />
+      <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
     </head>
     <body>
       <nav class="navbar navbar-default">
@@ -201,8 +202,17 @@
 
 </script>
 
-<!-- <script> -->
-<!--   document.getElementById("nav-index").className += "active"; -->
-<!-- </script> -->
+<script>
+  d3.csv("years.csv",function(data){
+  d3.select("#nav-assignment1")
+  .selectAll("a")
+  .data(data)
+  .enter()
+  .append("a")
+  .attr("href",d=>d["file"])
+  .text(d=>d["semester"]);
+  });
+</script>
+
 </body>
 </html>
