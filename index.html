@@ -10,7 +10,7 @@
   <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="courses.css" type="text/css" />
-  <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+  <script src="d3.v5.min.js" charset="utf-8"></script>
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -50,34 +50,27 @@
   </div>
 </nav>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <div id="header">
-	<h1 class="title">Projetos de Visualiza&ccedil;&atilde;o de Dados</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+	<div id="header">
+	  <h1 class="title" id="title">Projetos de Visualiza&ccedil;&atilde;o de Dados</h1>
+	</div>
+
+	<div id="course-information" class="section level3">
+
+	  <table width="940" align="center" cellpadding="5" cellspacing="5" id="Table1" bgcolor="white">
+	    <tbody id="contTable">	
+	    </tbody>
+	  </table>
+	
       </div>
-      <!-- <div id="course-information" class="section level3"> -->
-      <!-- 	<h3>Informações Sobre a Disciplina</h3> -->
-      <!-- 	<ul> -->
-      <!-- 	  <p>Visualização de dados é uma área multidisciplinar que vem crescendo rapidamente. Técnicas de visualização tomam proveito do grande poder do sistema visual humano e dos sofisticados sistemas gráficos modernos para produzir representações visuais que permitem analisar e comunicar dados de maneira eficiente. Contruir visualizações de dados é uma habilidade de extrema importância na era de Big Data (veja <a href="https://flowingdata.com/2009/02/25/googles-chief-economist-hal-varian-on-statistics-and-data/" target="_blank">link1</a>, <a href="https://www.whitehouse.gov/sites/default/files/microsites/ostp/big_data_press_release_final_2.pdf" target="_blank">link2</a>).</p> -->
-      <!-- 	  <p>O objetivo deste curso é introduzir os princípios e técnicas básicas de visualização de dados. Os estudantes serão expostos a tecnologias amplamente usadas para o desenvolvimento de visualizações e também a alguns desafios de pesquisa na área. -->
-      <!-- 	</ul> -->
-      <!-- </div> -->
+    </div>
+  </div>
 
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script>
-  d3.csv("years.csv",function(data){
-  d3.select("#nav-assignment1")
-  .selectAll("a")
-  .data(data)
-  .enter()
-  .append("a")
-  .attr("href",d=>d["file"])
-  .text(d=>d["semester"]);
-  });
-
-</script>
+<script src="main.js"></script>
 </body>
 </html>

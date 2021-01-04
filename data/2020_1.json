@@ -1,0 +1,141 @@
+{
+    "projects":[
+	{"title":"Fed Squares",
+	 "links":[{"a":"https://github.com/tvmsouza/FED-SQUARES",
+		   "text":"Github"}],
+	 "authors":[
+	     {
+		 "name":"Thiago Souza",
+		 "email":"tvms@cin.ufpe.br"
+	     }],
+	 "teaser":"2020_1/fed_squares.png"
+	},
+
+	{"title":"Engenharia Reversa em Gráficos de Barra",
+	 "links":[
+	     {"a":"https://github.com/danielasoucst/rev_bar",
+	      "text":"Github"
+	     }
+		 ],
+	 "authors":[
+	     {
+		 "name":"Daniela Costa",
+		 "email":"dsc4@cin.ufpe.br"
+	     }],
+	 "teaser":"2020_1/engenharia_reversa.png"
+	},
+	{"title":"Acidentes de Trânsito em Recife",
+	 "links":[{"a":"https://public.tableau.com/profile/victor3531#!/vizhome/Acidentes_de_Transito_Recife_2015_2019/Painel1","text":"Demo 1"},
+		  {"a":"https://public.tableau.com/profile/victor3531#!/vizhome/Reducao_de_acidentes_pandemia/Painel1",
+		   "text":"Demo 2"
+		  }
+		 ],
+	 "authors":[
+	     {
+		 "name":"Delmiro Daladier",
+		 "email":"ddsn@cin.ufpe.br"
+	     },
+	     {
+		 "name":"Victor Viana",
+		 "email":"vvas@cin.ufpe.br"
+	     }],
+	 "teaser":"2020_1/acidentes.png"
+	},
+	{"title":"Mapeador de Gastos Públicos",
+	 "links":[{"a":"https://github.com/paulomenezes/gastos-publicos","text":"GitHub"}
+		  
+		 ],
+	 "authors":[
+	     {
+		 "name":"Daniel Cândido",
+		 "email":"candidosdaniel@gmail.com"
+	     },
+	     {
+
+		 "name":"Paulo Menezes",
+		 "email":"paulo.hgmenezes@gmail.com"
+	     }],
+	 "teaser":"2020_1/gastos.png"
+	},
+	{"title":"Análise do Exame Nacional do Ensino Médio",
+	 "links":[{"a":"https://bit.ly/painel_enem","text":"Demo"},
+		  {"a":"https://github.com/ftsnba","text":"GitHub"}
+		 ],
+	 "authors":[
+	     {
+		 "name":"Fernanda Santos",
+		 "email":"ftspublicidade@gmail.com"
+	     }],
+	 "teaser":"2020_1/enem.png"
+	},
+	{"title":"Dataset Imbalance Graphical Support Tool",
+	 "links":[{"a":"https://heitorcfelix.github.io/Dataset-Imbalance-Graphical-Support-Tool/","text":"Demo"},
+		  {"a":"https://github.com/heitorcfelix/Dataset-Imbalance-Graphical-Support-Tool","text":"GitHub"}
+		 ],
+	 "authors":[
+	     {
+		 "name":"Heitor Felix",
+		 "email":"hcf2@cin.ufpe.br"
+		 },
+		 {
+			"name":"Thiago Chaves",
+			"email":"tmc2@cin.ufpe.br"
+			}],
+	 "teaser":"2020_1/imbalance.png"
+	},
+	{"title":"Industry 4.0 Brazil Maturity Index Data Visualization",
+	 "links":[{"a":"https://public.tableau.com/profile/ricardo.brazileiro#!/vizhome/DashboardMaturityIndexBrazilIndustry4_0/DashboardMaturityIndexBrazil","text":"Demo"}
+		 ],
+	 "authors":[
+	     {
+		 "name":"Ricardo Brazileiro",
+		 "email":"rbb2@cin.ufpe.br"
+		 }],
+	 "teaser":"2020_1/industry.png"
+	},
+	{"title":"Visualizando o efeito da idade na infectividade do COVID-19",
+	 "links":[{"a":"https://rodrigofolha.github.io/data-vis-covid/","text":"Demo"},
+		{"a":"https://github.com/rodrigofolha/data-vis-covid/","text":"GitHub"}
+		 ],
+	 "authors":[
+	     {
+		 "name":"Rodrigo Folha",
+		 "email":"rbf2@cin.ufpe.br"
+		 }],
+	 "teaser":"2020_1/covid19.jpg"
+	},
+	{"title":"Ferramentas de visualização para interpretabilidade de modelos de aprendizado de máquina em análise de processo industrial",
+	 "links":[
+		{"a":"https://github.com/tmrb/process_data_visualization","text":"GitHub"}
+		 ],
+	 "authors":[
+	     {
+		 "name":"Thiago Moura",
+		 "email":"tmrb@cin.ufpe.br"
+		 }],
+	 "teaser":"2020_1/mlindustry.png"
+	},
+	{"title":"Visualizing the EU Migration Crisis",
+	 "links":[
+		{"a":"https://public.tableau.com/views/asyl_appl/Infographicfinal?:language=en&:display_count=y&publish=yes&:origin=viz_share_link","text":"Demo"}
+		 ],
+	 "authors":[
+	     {
+		 "name":"Willams Costa",
+		 "email":"wlc2@cin.ufpe.br"
+		 }],
+	 "teaser":"2020_1/imigration.png"
+	},
+	{"title":"Avistamentos de OVNIs pelo Mundo",
+	 "links":[
+		{"a":"https://github.com/malf2/UFO_Sightings_Dashboard","text":"GitHub"}
+		 ],
+	 "authors":[
+	     {
+		 "name":"Matheus Freire",
+		 "email":"malf@cin.ufpe.br"
+		 }],
+	 "teaser":"2020_1/ufo.png"
+	}
+    ]
+}
