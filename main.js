@@ -11,8 +11,9 @@ function setYear(){
 	    .selectAll("td")
 	    .remove();
 
-    //console.log("/data/" + internalName  + ".json");
-    d3.json("/data/" + internalName  + ".json").then(function(data){
+	//console.log("/data/" + internalName  + ".json");
+	
+    d3.json("https://rawcdn.githack.com/visualizacao-ufpe/projects/46afa8a5c4ff5cda667567006f57b97cb918441b/data/" + internalName  + ".json").then(function(data){
 	let projects = data['projects'];
 
 	let itens = d3.select("#contTable")
