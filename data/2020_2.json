@@ -1,0 +1,206 @@
+{
+    "projects":[
+        {
+            "title": "RELAÇÃO ENTRE A DEGRADAÇÃO DOS BIOMAS BRASILEIROS E INVESTIMENTOS EM POLÍTICAS AMBIENTAIS",
+            "links":[
+            {"a":"https://public.tableau.com/profile/alessandro.lima#!/vizhome/datavis-cin-ufpe/brenviroment?publish=yes", "text":"Demo"},
+            {"a":"https://docs.google.com/presentation/d/1gaUGYovSXKqzPoKU41SNiSyWW5Vqiz1ZGvzHdRVDbNc/edit?usp=sharing", "text":"Slides"}
+            ],
+            "authors":[
+            { "name":"Alessandro Lima", "email":"afl2@cin.ufpe.br"}
+            ],
+            "teaser":"2020_2/afl2_2020_2.png"
+        },
+        {
+            "title": "Visualização de comunidades em fluxos de Origem-Destino na cidade do Recife",
+            "links":[
+            {"a":"https://github.com/nallice/deteccao-comunidades-recife", "text":"Github"}
+            ],
+            "authors":[
+            { "name":"Ana Alice Peregrino", "email":"aapp@cin.ufpe.br"}
+            ],
+            "teaser":"2020_2/aapp_2020_2.png"
+        },
+        {
+            "title":"Fluxo de extração de dados em documentos",
+            "links":[
+            {"a":"https://github.com/EduardoCintraSimoes/ProjetoVisualizacao.git", "text":"Github"},
+            {"a":"https://docs.google.com/presentation/d/1b2NFiDV-ydI-TVMNgFC308fpzr7SrLfsSY1itE3RaT0", "text":"Slides"},
+            {"a":"https://eduardocintrasimoes.github.io/ProjetoVisualizacao/projeto_ecs4.html", "text":"Demo"}
+            ],
+            "authors":[
+                { "name":"Eduardo Cintra Simões", "email":"ecs4@cin.ufpe.br"}
+            ],
+            "teaser":"2020_2/ecs4_2020_2.png"
+        },
+        {
+            "title": "Avaliação de Projetos de Pesquisa através de Dashboards Interativos",
+            "links":[
+            {"a":"https://drive.google.com/file/d/11uTCHucSM3ocP5VeSWlRPFOyvPA3591F/view?usp=sharing", "text":"Slides"} 
+            ],
+            "authors":[
+            { "name":"Felipe Omena", "email":"foma@cin.ufpe.br"}
+            ],
+            "teaser":"2020_2/foma_2020_2.png"
+        },
+        {
+            "title": "Understanding the Evolution of Most Popular Songs From 1950 to 2015",
+            "links":[
+                {
+                    "a":"https://public.tableau.com/profile/gabriel.lima8264#!/vizhome/BillboardSpotify/Storytelling", 
+                    "text":"Demo"
+                }
+            ],
+            "authors":[
+                {
+                    "name":"Gabriel Lima", 
+                    "email":"gbl@cin.ufpe.br"
+                }
+            ],
+            "teaser":"2020_2/gbl_2020_2.png"
+        },
+        {
+            "title": "Time Series Modelling Analysis",
+            "links":[
+            {"a":"https://github.com/gabrielteotonio/st-modelling", "text":"Github"}
+            ],
+            "authors":[
+            { "name":"Gabriel Teotonio", "email":"ghft@cin.ufpe.br"}
+            ],
+            "teaser":"2020_2/ghft_2020_2.png"
+        },
+        {
+            "title": "Analise Dados Prefeitura - Recife",
+            "links":[            
+            {"a":"https://www.canva.com/design/DAEZGgBSMe0/DfH0_LdQ3EWS_QifWZfTsQ/view?utm_content=DAEZGgBSMe0&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton", "text":"Slides"}
+            ],
+            "authors":[
+                { "name":"Humberto Andrade", "email":"hwca@cin.ufpe.br"}
+            
+            ],
+            "teaser":"2020_2/hwca_2020_2.png"
+        },
+        {
+            "title": "Crimevis.work: Visualização de ocorrências criminais",
+            "links":[
+            {"a":"https://github.com/irvin-s/crime_occur_vis", "text":"Github"},
+            {"a":"http://crimevis.work", "text":"Demo"},
+            {"a":"https://drive.google.com/file/d/1XOATWWLwnyEYTMEEG29-amZEEhs1IcLe/view?usp=sharing", "text":"Slides"}
+            ],
+            "authors":[
+            { "name":"Irvin Bezerra", "email":"isb@cin.ufpe.br"}
+            ],
+            "teaser":"2020_2/isb_2020_2.png"
+        },
+        {
+            "title": "PERFIL GESTA",
+            "links": [
+              {
+                "a": "https://perfilgesta.000webhostapp.com/PERFILGESTA/index.html",
+                "text": "Aplicação Hospedada"
+              },
+              {
+                "a": "https://github.com/mauroES/VisualizacaoDados/tree/main/PERFILGESTA",
+                "text": "PROJETO e APRESENTAÇÃO"
+              }
+            ],
+            "authors": [
+              {
+                "name": "José Maurício Matapi",
+                "email": "jmms2@cin.ufpe.br"
+              },
+              {
+                "name": "Miguel Ortiz",
+                "email": "maoa@cin.ufpe.br"
+              }
+            ],
+            "teaser": "2020_2/jmms2_maoa2020_2.png"
+        },
+        {
+            "title": "Ferramenta de visualização para análise de características dos bairros do Recife e influência sobre a pandemia da COVID-19",
+            "links":[
+            {"a":"https://github.com/jcssilva4/dataviz_2020_proj_covid19.git", "text":"Github"}, 
+            {"a":"https://drive.google.com/file/d/1iC0cPu_s4cLbYl-YYJuJswc44IWDNO0B/view?usp=sharing", "text":"Slides"}
+            ],
+            "authors":[
+            { "name":"Julio Cezar Soares Silva", "email":"jcss4@cin.ufpe.br"}
+            ],
+            "teaser":"2020_2/jcss4_2020_2.png"
+        },
+        {
+            "title": "Análise da evasão de alunos do Instituto Federal de Pernambuco",
+            "links":[
+                {"a":"https://karinamoura.github.io/ifpe-vis/index.html", "text":"Github"}, 
+                {"a":"https://docs.google.com/presentation/d/1KFEiD_rOPEIHHKyBUs22dCmb8mrGI-TCT9n1pnV_aH4/edit?usp=sharing", "text":"Slides"}
+            ],
+            "authors":[
+            { "name":"Karina Moura", "email":"kms2@cin.ufpe.br"}
+            ],
+            "teaser":"2020_2/kms2_2020_2.png"
+        },
+        {
+            "title": "Análise das Perguntas e Tópicos no StackOverFlow",
+            "links":[
+            {"a":"https://github.com/Levi-zz/Visualizacao", "text":"Github"}, 
+            {"a":"https://stackoverflowvis.herokuapp.com/", "text":"Demo"} 
+            ],
+            "authors":[
+            { "name":"Levi Júnior", "email":"lsrj@cin.ufpe.br"}
+            ],
+            "teaser":"2020_2/lsrj_2020_2.png"
+        },
+        {
+            "title": "COVID-19 Explorer: Uma Ferramenta Interativa de Visualização para Explorar a Literatura da COVID-19",
+            "links":[
+                    {"a":"https://luisfredgs.github.io/covid-19-literature-clustering-using-bert-umap/", "text":"Github"}
+            ],
+            "authors":[
+                { "name":"Luís Fred", "email":"lfgs@cin.ufpe.br"}
+            ],
+            "teaser":"2020_2/lfgs_2020_2.png"
+        },
+        {
+            "title": "Ferramenta de Visualização de Dados de Alta Dimensionalidade",
+            "links": [
+                {
+                    "a": "https://marcosd3souza.github.io/",
+                    "text": "Github"
+                },
+        
+                {
+                    "a": "https://docs.google.com/presentation/d/1cyBrxjWAaWMn5J91SdrQoXlaVonVtFRiEeHxE9FDve4/edit?usp=sharing",
+                    "text": "Slides"
+                }
+            ],
+            "authors": [
+                {
+                    "name": "Marcos de Souza",
+                    "email": "mso2@cin.ufpe.br"
+                }
+            ],
+            "teaser": "2020_2/mso2_2020_2.png"
+        },
+        {
+            "title": "DeepVis: Ferramenta de visualizacão dos dados de hiper-parametrizacão modelos de Aprendizado Profundo",
+            "links":[
+            {"a":"https://github.com/thiagodiasbispo/DeepVis", "text":"Github"}
+            ],
+            "authors":[
+            { "name":"Thiago Dias Bispo", "email":"tdb@cin.ufpe.br"}
+            ],
+            "teaser":"2020_2/tdb_2020_2.png"
+        },
+        {
+            "title": "Dashboard para visualização de dados sobre cursos à distância ofertados em ambiente virtual de aprendizagem",
+            "links":[
+            {"a":"https://drive.google.com/file/d/1I1EMPhqNGFooYfvmfm_v2xOxCFyoX2W5/view?usp=sharing", "text":"Slides"} 
+            ],
+            "authors":[
+            { "name":"Júlia Carneiro de Almeida", "email":"jca3@cin.ufpe.br"},
+            { "name":"Tiago José Dimas Dias Nogueira", "email":"tjddn@cin.ufpe.br"}
+            ],
+            "teaser":"2020_2/jca3_tjddn_2020_2.png"
+        }
+
+    ]
+}
