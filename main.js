@@ -13,8 +13,8 @@ function setYear(){
 
 	//console.log("/data/" + internalName  + ".json");
 	
-    d3.json("https://rawcdn.githack.com/visualizacao-ufpe/projects/46afa8a5c4ff5cda667567006f57b97cb918441b/data/" + internalName  + ".json").then(function(data){
-		//d3.json("data/" + internalName  + ".json").then(function(data){
+    //d3.json("https://rawcdn.githack.com/visualizacao-ufpe/projects/46afa8a5c4ff5cda667567006f57b97cb918441b/data/" + internalName  + ".json").then(function(data){
+		d3.json("/data/" + internalName  + ".json").then(function(data){
 	let projects = data['projects'];
 
 	let itens = d3.select("#contTable")
@@ -30,7 +30,7 @@ function setYear(){
 	    .attr("bgcolor","white");
 	images.append("img")
 		.attr("height","175px")
-	    .attr("src",d=>("figs/"+d.teaser))
+	    .attr("src",d=>("/figs/"+d.teaser))
 	let info   = rows.append("td");
 	info.attr("width","70%")
 	    .attr("align","left")
