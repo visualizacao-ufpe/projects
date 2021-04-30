@@ -191,6 +191,14 @@
             "teaser":"2020_2/tdb_2020_2.png"
         },
         {
+            "title": "Systematic Review with Snowball Sampling",
+            "links": [
+              { "a": "https://github.com/thiagoald/snowball-vis", "text": "Github" }
+            ],
+            "authors": [{ "name": "Thiago Domingues", "email": "tald@cin.ufpe.br" }],
+            "teaser": "2020_2/tald_2020_2.png"
+        },
+        {
             "title": "Dashboard para visualização de dados sobre cursos à distância ofertados em ambiente virtual de aprendizagem",
             "links":[
             {"a":"https://drive.google.com/file/d/1I1EMPhqNGFooYfvmfm_v2xOxCFyoX2W5/view?usp=sharing", "text":"Slides"} 
